@@ -26,12 +26,12 @@ You could use command-line version of git or GUI version of git, either way is f
 
 * Open the terminal on Windows/Mac/Linux
 ```
-$ git clone https://github.com/dogecoinfoundation/dogecoin.org.git .
+$ git clone https://github.com/dogeorg/dogecoin.org.git .
 ```
 ### Using Github Desktop (GUI)
 
 * Open Github Desktop
 * Add -> Clone Repository
-* URL: https://github.com/dogecoinfoundation/dogecoin.org.git
+* URL: https://github.com/dogeorg/dogecoin.org.git
 * Clone it to your local machine
 ![](img/github-desktop-clone-repo.png)
