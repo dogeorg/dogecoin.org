@@ -1,0 +1,228 @@
+    <!-- Navbar -->
+    <nav class="main-header navbar navbar-expand navbar-light" style="padding-right: 15px !important">
+        <!-- Left navbar links -->
+        <ul class="navbar-nav">
+            <li class="nav-item pushmenu push-left-doge-menu" >
+                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="/index.html" role="button"><img src="/img/dogeorg.png" alt="" style="max-width: 100px;" /></a></li>
+{{ range .Site.Menus.main }}
+            <li class="nav-item d-none d-sm-inline-block">
+                <a href="{{ .URL }}" class="nav-link">{{ $icon := printf "<i class=\"fa-solid fa-%s\"></i> " .Pre | safeHTML }}
+                    {{ $icon }} {{ .Name }}</a>
+            </li>
+{{ end }}
+
+        </ul>
+        <!-- Right navbar links -->
+        <ul class="navbar-nav ml-auto">
+
+            <!-- Navbar Search -->
+            <li class="nav-item">
+                <a class="nav-link" data-widget="navbar-search" href="#" role="button" style="display: none">
+                    <i class="fas fa-search"></i>
+                </a>
+                <div class="navbar-search-block">
+                    <form class="form-inline">
+                        <div class="input-group input-group-sm">
+                            <input class="form-control form-control-navbar" type="search" placeholder="Fetch" aria-label="Fetch">
+                            <div class="input-group-append">
+                                <button class="btn btn-navbar" type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </li>
+
+            <li class="nav-item" style="display: none">
+                <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                    <i class="fas fa-expand-arrows-alt"></i>
+                </a>
+            </li>
+            <li class="nav-item" style="display: none">
+                <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+                    <i class="fas fa-solid fa-chart-column"></i>
+                </a>
+            </li>
+            {{- partial "flags.html" . -}}
+            <li class="nav-item">
+                <div class="theme-switch-wrapper nav-link">
+                    <label class="theme-switch">
+                        <input type="checkbox" class="btn-check" id="moon" autocomplete="off" style="display: none">
+                        <i class="fa-solid fa-moon" for="moon" style="cursor: pointer"></i>
+                    </label>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!-- /.navbar -->
+
+    <!-- Main Sidebar Container -->
+    <aside class="main-sidebar sidebar-dark-light elevation-4">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+
+            <!-- Sidebar Menu -->
+            <nav class="mt-2 left-doge-menu" style="display: none">
+                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview-top" role="menu" data-accordion="false">
+{{ range .Site.Menus.main }}
+                    <li class="nav-item">
+                        <a href="{{ .URL }}" class="nav-link">
+                            {{ $icon := printf "<i class=\"fa-solid fa-%s\"></i> " .Pre | safeHTML }}
+                            {{ $icon }}
+                            <p>
+                                {{ .Name }}
+                            </p>
+                        </a>
+                    </li>
+{{ end }}
+                </ul>
+            </nav>
+            <!-- /.sidebar-menu -->
+
+
+                <!-- SidebarSearch Form -->
+            <div class="form-inline search-left-doge-menu" style="margin-top: 5px !important;">
+                <div class="input-group" data-widget="sidebar-search">
+                    <input class="form-control form-control-sidebar" type="search" placeholder="Fetch" aria-label="Fetch">
+                    <div class="input-group-append">
+                        <button class="btn btn-sidebar">
+                            <i class="fas fa-search fa-fw"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar Menu -->
+            <nav class="mt-2 bottom-left-doge-menu">
+                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                    <li class="nav-item has-treeview menu-open">
+                        <a href="#" class="nav-link active">
+                            <i class="nav-icon fa-solid fa-book-open"></i>
+                            <p>
+                                {{ .Site.Params.getting_started }}
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                               {{ $projects := where (where $.Site.Pages ".Params.type" "gettingstarted") ".Params.subtype" "introduction" }}
+                               {{ range sort $projects ".Params.order" "asc" }}
+                            <li class="nav-item">
+                            <a href="#" class="nav-link">
+                            <i class="nav-icon fa-brands fa-readme"></i>
+                            <p>
+                            {{ .Params.title }}
+                            <i class="fas fa-angle-left right"></i>
+                            <span class="badge badge-info right">{{ .Params.version }}</span>
+                            </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                            <a href="/{{ lower .Site.Params.much_start_coding }}/{{ lower .Params.uri }}/{{ lower .Site.Params.introduction }}" class="nav-link">
+                            <i class="nav-icon fa-solid fa-circle-info"></i>
+                            <p>{{ .Site.Params.introduction }}</p>
+                            </a>
+                            </li>
+                            <li class="nav-item">
+                            <a href="/{{ lower .Site.Params.much_start_coding }}/{{ lower .Params.uri }}/{{ lower .Site.Params.install }}" class="nav-link">
+                            <i class="nav-icon fa-solid fa-gears"></i>
+                            <p>{{ .Site.Params.install }}</p>
+                            </a>
+                            </li>
+                            <li class="nav-item">
+                            <a href="/{{ lower .Site.Params.much_start_coding }}/{{ lower .Params.uri }}/{{ lower .Site.Params.contents }}" class="nav-link">
+                            <i class="nav-icon fa-solid fa-code"></i>
+                            <p>{{ .Site.Params.contents }}</p>
+                            </a>
+                            </li>
+                            </ul>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item" style="display: none">
+                        <a href="#" class="nav-link">
+                            <i class="nav-icon fa-solid fa-code"></i>
+                            <p>
+                                {{ .Site.Params.how_to }}
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item"><a href="#" class="nav-link"><p>{{ .Site.Params.examples }}</p></a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"><p>{{ .Site.Params.blockchain }}</p></a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a href="/{{ .Site.Params.such_dogecoin_projects }}" class="nav-link">
+                            <i class="nav-icon fa-solid fa-list"></i>
+                            <p>
+                                {{ .Site.Params.projects_list }}
+                                <span class="right badge text-bg-warning">{{ len (where (where $.Site.Pages ".Params.type" "gettingstarted" ) ".Params.subtype" "introduction") }}</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/orgs/dogecoinfoundation/teams" target="_blank" class="nav-link">
+                            <i class="nav-icon fas fa-solid fa-paw"></i>
+                            <p>
+                                {{ .Site.Params.dogecoin_devs }}
+                                <span class="right badge text-bg-light">> 420</span>
+                            </p>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+            <!-- /.sidebar-menu -->
+        </div>
+    <div class="brand-text font-weight-light right badge text-bg-secondary" style="text-align: center; margin: auto; display: block; padding: 10px; margin: 5px; margin-bottom: 15px;" id="fiat">
+        1 Ð = <span id="1doge">0.0</span> USD<br>
+        1 USD = <span id="1usd">0.0</span> Ð
+    </div>
+        <!-- /.sidebar -->
+    </aside>
+<script>
+    $.getJSON("https://api.coingecko.com/api/v3/simple/price?ids=dogecoin&vs_currencies=usd", function(data){
+        $("#1doge").html((data["dogecoin"]["usd"]).toFixed(3));
+        $("#1usd").html((1 / data["dogecoin"]["usd"]).toFixed(3));
+    }).fail(function( dat, textStatus, error ) {
+        var err = textStatus + ", " + error;
+        //alert(err);
+    });
+
+/*
+    var i = 0;
+    while (i < 69) {
+        $.getJSON("https://api.github.com/repos/dogecoin/dogecoin/contributors?per_page=100&page=" + i, function(data){
+            console.log( _.size(obj.data) );
+        }).fail(function( dat, textStatus, error ) {
+            //var err = textStatus + ", " + error;
+            //alert(err);
+            i = 69;
+            //alert("ok" + i);
+        });
+        i++;
+}
+*/
+
+var intervalId = window.setInterval(function(){
+    $.getJSON("https://api.coingecko.com/api/v3/simple/price?ids=dogecoin&vs_currencies=usd", function(data){
+        $("#1doge").html((data["dogecoin"]["usd"]).toFixed(3));
+        $("#1usd").html((1 / data["dogecoin"]["usd"]).toFixed(3));
+    }).fail(function( dat, textStatus, error ) {
+        var err = textStatus + ", " + error;
+        //alert(err);
+    });
+}, 10000);
+</script>

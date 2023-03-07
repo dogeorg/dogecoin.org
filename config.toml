@@ -1,0 +1,115 @@
+baseURL = 'http://dogecoin.org/'
+languageCode = 'en-us'
+title = 'Dogecoin.org'
+theme = "dogecoin.org"
+
+[markup.goldmark.renderer]
+    unsafe = true # Allow HTML in md files
+
+[languages]
+
+## Start English Language here
+[languages.en]
+    subtitle  = "Much Welcome"
+    weight    = 1
+    contentDir = "content/en"
+
+[languages.en.params]
+
+    ## index
+    learn_run_deploy = "Learn, Run, Deploy on "
+    blockchain = "Blockchain"
+    javascript = "Javascript"
+    go = "Go"
+    python = "Python"
+    php = "PHP"
+    emulator = "Emulator"
+
+    ##side menu
+    getting_started = "Getting Started"
+    introduction = "Introduction"
+    install = "Install"
+    contents = "Contents"
+    how_to = "How To"
+    examples = "Examples"
+    #blockchain = "BlockChain"
+    projects_list = "Projects List"
+    dogecoin_devs = "Dogecoin Devs"
+
+    ##folders
+    much_start_coding = "much-start-coding"
+    such_dogecoin_projects = "such-dogecoin-projects"
+    so_dogecoin_blog = "so-dogecoin-blog"
+
+    ##projects
+    project = "Project"
+    description = "Description"
+    social = "Social"
+
+[languages.en.menu]
+    [[languages.en.menu.main]]
+        name = "Wow"
+        pre = "house"
+        url = "/"
+        weight = 1
+    [[languages.en.menu.main]]
+        name = "Getting Started"
+        pre = "code"
+        url = "/much-start-coding/"
+        weight = 2
+    [[languages.en.menu.main]]
+        name = "Projects"
+        pre = "paw"
+        url = "/such-dogecoin-projects/"
+        weight = 3
+    [[languages.en.menu.main]]
+        name = "Blog"
+        pre = "tag"
+        url = "/blog/"
+        weight = 4
+
+## End English Language here
+## Start Portuguese Language here
+[languages.pt]
+    subtitle  = "Much Welcome"
+    weight    = 1
+    contentDir = "content/pt"
+
+[languages.pt.params]
+    ## index
+    javascript = "Javascript"
+    go = "Go"
+    python = "Python"
+    php = "PHP"
+    emulator = "Emulator"
+    ##side menu
+    examples = "Examples"
+    blockchain = "BlockChain"
+    projects_list = "Projects List"
+    dogecoin_devs = "Dogecoin Devs"
+    much_start_coding = "much-start-coding"
+    such_dogecoin_projects = "such-dogecoin-projects"
+    so_dogecoin_blog = "so-dogecoin-blog"
+
+[languages.pt.menu]
+    [[languages.pt.menu.main]]
+        name = "Wow"
+        pre = "house"
+        url = "/"
+        weight = 1
+    [[languages.pt.menu.main]]
+        name = "Getting Started"
+        pre = "code"
+        url = "/much-start-coding/"
+        weight = 2
+    [[languages.pt.menu.main]]
+        name = "Projects"
+        pre = "paw"
+        url = "/such-dogecoin-projects/"
+        weight = 3
+    [[languages.pt.menu.main]]
+        name = "Blog"
+        pre = "tag"
+        url = "/so-dogecoin-blog/"
+        weight = 4
+## End Portuguese Language here
