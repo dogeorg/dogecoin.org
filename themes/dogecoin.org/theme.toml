@@ -3,7 +3,7 @@
 
 name = "Dogecoin.org"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+licenselink = "https://github.com/dogeorg/dogecoin.org/themes/dogecoin.org/blob/master/LICENSE"
 description = "Dogecoin Development"
 homepage = "https://dogecoin.org/"
 tags = ["doge", "dogecoin"]

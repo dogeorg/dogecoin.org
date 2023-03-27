@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "name": "Timothy Stebbing",
+        "type": ["Full Stack","BlockChain"],
+        "pfp": "https://avatars.githubusercontent.com/u/551374?v=4",
+        "dogeTipAddress": "",
+        "social": {
+            "web": "",
+            "email": "",
+            "github": "jstebbing",
+            "twitter": "tjstebbing",
+            "reddit": "tjstebbing",
+            "discord": "tjstebbing#5250"
+        },
+        "dogeProjects": [
+            {"name": "dogens", "url": "https://github.com/tjstebbing/dogens" }
+        ]
+    }
+}

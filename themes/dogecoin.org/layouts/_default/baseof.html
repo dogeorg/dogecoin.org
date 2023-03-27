@@ -28,6 +28,13 @@
 </div>
 <script>
 
+    // enable tooltips on the dogecoin.org
+    let tooltipelements = document.querySelectorAll("[data-bs-toggle='tooltip']");
+                tooltipelements.forEach((el) => {
+                    new bootstrap.Tooltip(el);
+                });
+    
+    // we change the theme dark/light modes
     var toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
     var currentTheme = localStorage.getItem('theme');
     var mainHeader = document.querySelector('.main-header');

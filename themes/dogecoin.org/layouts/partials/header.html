@@ -5,7 +5,7 @@
             <li class="nav-item pushmenu push-left-doge-menu" >
                 <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="/index.html" role="button"><img src="/img/dogeorg.png" alt="" style="max-width: 100px;" /></a></li>
+            <li class="nav-item"><a class="nav-link dlogo" href="/index.html" role="button"><&ETH;ogecoin/></a></li>
 {{ range .Site.Menus.main }}
             <li class="nav-item d-none d-sm-inline-block">
                 <a href="{{ .URL }}" class="nav-link">{{ $icon := printf "<i class=\"fa-solid fa-%s\"></i> " .Pre | safeHTML }}
@@ -25,7 +25,7 @@
                 <div class="navbar-search-block">
                     <form class="form-inline">
                         <div class="input-group input-group-sm">
-                            <input class="form-control form-control-navbar" type="search" placeholder="Fetch" aria-label="Fetch">
+                            <input class="form-control form-control-navbar" style="color: #eee;" type="search" placeholder="Fetch" aria-label="Fetch">
                             <div class="input-group-append">
                                 <button class="btn btn-navbar" type="submit">
                                     <i class="fas fa-search"></i>
@@ -90,7 +90,7 @@
                 <!-- SidebarSearch Form -->
             <div class="form-inline search-left-doge-menu" style="margin-top: 5px !important;">
                 <div class="input-group" data-widget="sidebar-search">
-                    <input class="form-control form-control-sidebar" type="search" placeholder="Fetch" aria-label="Fetch">
+                    <input class="form-control form-control-sidebar" style="background-color: #fff !important;" type="search" placeholder="Fetch" aria-label="Fetch">
                     <div class="input-group-append">
                         <button class="btn btn-sidebar">
                             <i class="fas fa-search fa-fw"></i>
@@ -173,11 +173,11 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://github.com/orgs/dogecoinfoundation/teams" target="_blank" class="nav-link">
+                        <a href="/devs" class="nav-link">
                             <i class="nav-icon fas fa-solid fa-paw"></i>
                             <p>
                                 {{ .Site.Params.dogecoin_devs }}
-                                <span class="right badge text-bg-light">> 420</span>
+                                <span class="right badge text-bg-light">{{ len $.Site.Data.devs }}</span>
                             </p>
                         </a>
                     </li>
@@ -192,37 +192,29 @@
     </div>
         <!-- /.sidebar -->
     </aside>
-<script>
-    $.getJSON("https://api.coingecko.com/api/v3/simple/price?ids=dogecoin&vs_currencies=usd", function(data){
-        $("#1doge").html((data["dogecoin"]["usd"]).toFixed(3));
-        $("#1usd").html((1 / data["dogecoin"]["usd"]).toFixed(3));
-    }).fail(function( dat, textStatus, error ) {
-        var err = textStatus + ", " + error;
-        //alert(err);
-    });
+<script type="text/javascript">
+$(document).ready(function() {
 
-/*
-    var i = 0;
-    while (i < 69) {
-        $.getJSON("https://api.github.com/repos/dogecoin/dogecoin/contributors?per_page=100&page=" + i, function(data){
-            console.log( _.size(obj.data) );
+    function dogecoin(x) {
+         return Number.parseFloat(x).toFixed(3);
+    }    
+    
+    // we get the current fiat value of dogecoin and store localy on the shibe device to optimize requets    
+    if (dogecoin(localStorage.getItem('dogecoinValue')) <= 0 ){        
+        $.getJSON("https://api.coingecko.com/api/v3/simple/price?ids=dogecoin&vs_currencies=usd", function(data){
+            $("#1doge").html(dogecoin(localStorage.getItem('dogecoinValue')));
+            $("#1usd").html((1 / dogecoin(localStorage.getItem('dogecoinValue'))).toFixed(3));   
+            localStorage.setItem('dogecoinValue', data["dogecoin"]["usd"]); // we store the value in local storage                
         }).fail(function( dat, textStatus, error ) {
-            //var err = textStatus + ", " + error;
-            //alert(err);
-            i = 69;
-            //alert("ok" + i);
+            var err = textStatus + ", " + error;
         });
-        i++;
-}
-*/
-
-var intervalId = window.setInterval(function(){
-    $.getJSON("https://api.coingecko.com/api/v3/simple/price?ids=dogecoin&vs_currencies=usd", function(data){
-        $("#1doge").html((data["dogecoin"]["usd"]).toFixed(3));
-        $("#1usd").html((1 / data["dogecoin"]["usd"]).toFixed(3));
-    }).fail(function( dat, textStatus, error ) {
-        var err = textStatus + ", " + error;
-        //alert(err);
-    });
-}, 10000);
+    }else{
+        $("#1doge").html(dogecoin(localStorage.getItem('dogecoinValue')));
+        $("#1usd").html((1 / dogecoin(localStorage.getItem('dogecoinValue'))).toFixed(3));   
+    }
+    var intervalId = window.setInterval(function(){    
+        $("#1doge").html(dogecoin(localStorage.getItem('dogecoinValue')));
+        $("#1usd").html((1 / dogecoin(localStorage.getItem('dogecoinValue'))).toFixed(3));      
+    }, 10000);
+});
 </script>

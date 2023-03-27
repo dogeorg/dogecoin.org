@@ -1,0 +1,18 @@
+{
+    "dev": {
+        "name": "Michi",
+        "type": ["Full Stack","BlockChain"],
+        "pfp": "https://avatars.githubusercontent.com/u/6802127?v=4",
+        "dogeTipAddress": "",
+        "social": {
+            "web": "https://www.luskwood.org",
+            "email": "",
+            "github": "michilumin",
+            "twitter": "michilumin",
+            "reddit": "",
+            "discord": "michi#8237"
+        },
+        "dogeProjects": [
+        ]
+    }
+}

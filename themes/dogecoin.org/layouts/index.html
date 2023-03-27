@@ -10,7 +10,7 @@ $("#libdogecoin").terminal({
     generatePrivPubKeypair: function () {
         this.echo('\nPublic Key: D7AM5jDQ7xRRK7bMCZ87e4BsFxHxCdDbXd\n'
                 + 'Private Key: QWgNKvA5LPD1HpopRFghjz6jPipHRAUrLjqTt7paxYX8cTbu5eRs\n\n'
-                + 'as you can see, it generated a Dogecoin Address, the Public key is the'
+                + 'as you can see, it generated a Dogecoin Address, the Public key is the\n'
                 + 'Doge address to share, the Private Key is the key that enables you to access the Dogecoin Address to send and recieive Doge'
             );
     }
@@ -22,18 +22,12 @@ $("#libdogecoin").terminal({
 });
 });
 </script>
-<style type="text/css">
-h1{
-    color: #4946dd;
-}
-
-</style>
 <div class="row">
     <!-- Content here -->
-    <h1 style=" text-align: center">{{ .Site.Params.learn_run_deploy }}<span style="color: #000000">Dogecoin</span> {{ .Site.Params.blockchain }}</h1>
+    <h1 class="dogeorg-text" style="text-align: center">{{ .Site.Params.learn_run_deploy }}<span class="dogeorg-text-dark">Dogecoin</span> {{ .Site.Params.blockchain }}</h1>
 
 
-
+<div class="row">
 <ul class="nav nav-tabs" id="codingTab" role="tablist" style="max-width: 700px; margin: auto; margin-top: 80px">
     <li class="nav-item" role="coding">
         <button class="nav-link primary active" id="javascriptcode-tab" data-bs-toggle="tab" data-bs-target="#javascriptcode" type="button" role="tab" aria-controls="javascriptcode" aria-selected="true">{{ .Site.Params.javascript }}</button>
@@ -51,6 +45,8 @@ h1{
         <button class="nav-link primary" id="terminal-tab" data-bs-toggle="tab" data-bs-target="#terminal" type="button" role="tab" aria-controls="terminal" aria-selected="false">{{ .Site.Params.emulator }}</button>
     </li>
 </ul>
+</div>
+<div class="row">
 <div class="tab-content" id="codingContent" style="max-width: 700px; margin: auto; margin-top: 15px">
     <div class="tab-pane fade show active" id="javascriptcode" role="tabpanel" aria-labelledby="javascriptcode-tab">
 <pre>
@@ -132,6 +128,7 @@ echo "This is my Public Key: ". $result->public;</code>
 </div>
 
 
+</div>
 </div>
     <!--<h1 class="title">{{ .Site.Title }}</h1>-->
 <script>

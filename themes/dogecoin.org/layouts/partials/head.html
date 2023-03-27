@@ -17,6 +17,7 @@
 
     <!-- Second Theme style Bootsrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css" type="text/css">
 
@@ -29,6 +30,9 @@
 
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+    
+    <!-- QR Generator -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- AdminLTE App -->
     <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
@@ -61,6 +65,17 @@
       body {
         font-family: 'Comic Neue', cursive !important;
         }
+
+     .dlogo{
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: bold;
+        color: #4946dd !important;
+     } 
+     .dark-mode .dlogo{
+        color: #fff !important;
+     } 
+
      .sidebar{
          margin-top: 2px !important;
      }
@@ -68,6 +83,21 @@
         background-color: #4946dd !important;
         color: rgba(255, 255, 255, 1) !important;
     }
+
+    .primary{
+        color: #4946dd !important;
+    }
+
+    .dark-mode .primary{
+        color: #7775e1 !important;
+    }
+
+    .dark-mode .nav-item > .active{
+        background-color: #7775e1 !important;
+        color: rgba(255, 255, 255, 1) !important;
+    }
+
+
     .callout > h5{
     margin-bottom: -2px;
     }
@@ -81,6 +111,69 @@
         max-width: 150px;
         text-align: center;
     }
+
+    .dropdown-item{
+     text-decoration: none !important;    
+    }
+    .dropdown-item:hover{
+     color: #666!important;
+    }
+    .dark-mode .dropdown-item:hover {
+        color: #eee!important;
+    }
+    
+    a{
+     text-decoration: none !important;    
+    }
+
+    .devs:hover{
+        background-color: #666;
+        color: #eee;
+    } 
+    .list-group-item .devs:hover{
+        background-color: #eee!important;        
+    }
+
+    .dark-mode .callout{
+        background-color: #3f474e !important;
+    }
+    .dark-mode .devs{
+        color: #eee;
+    } 
+    
+    .dark-mode .devs:hover {
+        background-color: #eee;
+        color: #666;
+    }  
+
+
+    .dogeorg-text{
+        color: #4946dd;
+    }
+
+    .dark-mode .dogeorg-text{
+        color: #fff;
+    }    
+    .dogeorg-text-dark{
+        color: #666; 
+    }
+    .dark-mode .dogeorg-text-dark{
+        color: #7775e1; 
+    }
+
+    .dogeorg-bg{
+        background-color: #4946dd; 
+    }
+    .dark-mode .dogeorg-bg{
+        background-color: #7775e1; 
+    }  
+
+    .dogeorg-bg-dark{
+        background-color: #666; 
+    }
+    .dark-mode .dogeorg-bg-dark{
+        background-color: #7775e1; 
+    }    
 
     @media (max-width:575px) {
       .push-left-doge-menu{
