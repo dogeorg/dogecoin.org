@@ -42,9 +42,12 @@ theme = "dogecoin.org"
     so_dogecoin_blog = "so-dogecoin-blog"
 
     ##projects
+    such_projects = "Such Dogecoin Projects"
+    projects = "Projects"
     project = "Project"
     description = "Description"
     social = "Social"
+
 
 [languages.en.menu]
     [[languages.en.menu.main]]
@@ -76,20 +79,36 @@ theme = "dogecoin.org"
     contentDir = "content/pt"
 
 [languages.pt.params]
+
     ## index
     javascript = "Javascript"
     go = "Go"
     python = "Python"
     php = "PHP"
     emulator = "Emulator"
+
     ##side menu
+    getting_started = "Getting Started"
+    introduction = "Introduction"
+    install = "Install"
+    contents = "Contents"
+    how_to = "How To"
     examples = "Examples"
-    blockchain = "BlockChain"
+    #blockchain = "BlockChain"
     projects_list = "Projects List"
     dogecoin_devs = "Dogecoin Devs"
+
+    ##folders
     much_start_coding = "much-start-coding"
     such_dogecoin_projects = "such-dogecoin-projects"
     so_dogecoin_blog = "so-dogecoin-blog"
+
+    ##projects
+    such_projects = "Such Dogecoin Projects"
+    projects = "Projects"
+    project = "Project"
+    description = "Description"
+    social = "Social"
 
 [languages.pt.menu]
     [[languages.pt.menu.main]]

@@ -6,7 +6,7 @@ aliases = ["ShibeShip"] # name of the project
 type = "projects" # projects
 social_Type = "github" # types available: twitter, github, reddit, outher
 social_User = "qlpqlp"
-social_URL = "https://github.com/qlpqlp"
+social_URL = "https://github.com/dogeorg/ShibeShip"
 social_Image = "https://avatars.githubusercontent.com/u/5968076?v=4" # leave blank to not use any image
 version = "v69.420"
 description = "ShibeShipe is a OpenSource Market Place using for the first time GigaWallet"

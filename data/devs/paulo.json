@@ -6,11 +6,12 @@
         "dogeTipAddress": "DTqAFgNNUgiPEfGmc4HZUkqJ4sz5vADd1n",
         "social": {
             "web": "http://what-is-dogecoin.com",
-            "email": "inevitable@dogecoin.com",
+            "email": "",
             "github": "qlpqlp",
             "twitter": "inevitable360",
             "reddit": "qlp79qlp",
-            "discord": "inevitable360#6068"
+            "discord": "inevitable360#6068",
+            "linkedin": "paulo-vidal"
         },
         "dogeProjects": [
             {"name": "ShibeShip", "url": "https://github.com/dogeorg/ShibeShip" },

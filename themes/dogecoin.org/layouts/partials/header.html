@@ -168,7 +168,7 @@
                             <i class="nav-icon fa-solid fa-list"></i>
                             <p>
                                 {{ .Site.Params.projects_list }}
-                                <span class="right badge text-bg-warning">{{ len (where (where $.Site.Pages ".Params.type" "gettingstarted" ) ".Params.subtype" "introduction") }}</span>
+                                <span class="right badge text-bg-warning">{{ len (where $.Site.Pages ".Params.type" "projects") }}</span>
                             </p>
                         </a>
                     </li>
@@ -185,11 +185,11 @@
                 </ul>
             </nav>
             <!-- /.sidebar-menu -->
+            <div class="brand-text font-weight-light right badge text-bg-secondary" style="text-align: center; margin: auto; display: block; padding: 10px; margin: 5px; margin-bottom: 15px; margin-top: 100%;" id="fiat">
+                1 Ð = <span id="1doge">0.0</span> USD<br>
+                1 USD = <span id="1usd">0.0</span> Ð
+            </div>            
         </div>
-    <div class="brand-text font-weight-light right badge text-bg-secondary" style="text-align: center; margin: auto; display: block; padding: 10px; margin: 5px; margin-bottom: 15px;" id="fiat">
-        1 Ð = <span id="1doge">0.0</span> USD<br>
-        1 USD = <span id="1usd">0.0</span> Ð
-    </div>
         <!-- /.sidebar -->
     </aside>
 <script type="text/javascript">
@@ -198,9 +198,9 @@ $(document).ready(function() {
     function dogecoin(x) {
          return Number.parseFloat(x).toFixed(3);
     }    
-    
     // we get the current fiat value of dogecoin and store localy on the shibe device to optimize requets    
-    if (dogecoin(localStorage.getItem('dogecoinValue')) <= 0 ){        
+    if (localStorage.getItem('dogecoinValue') <= 0 ){ 
+               
         $.getJSON("https://api.coingecko.com/api/v3/simple/price?ids=dogecoin&vs_currencies=usd", function(data){
             $("#1doge").html(dogecoin(localStorage.getItem('dogecoinValue')));
             $("#1usd").html((1 / dogecoin(localStorage.getItem('dogecoinValue'))).toFixed(3));   

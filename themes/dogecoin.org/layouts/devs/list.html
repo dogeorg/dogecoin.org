@@ -62,17 +62,18 @@ select{
       <div class="card-footer p-0">
         <div class="row" style="padding: 0px; margin:0px">
 
-      <div class="col-7" style="padding: 0px; margin:0px; padding-top: 4px;">
+      <div class="col-9" style="padding: 0px; margin:0px; padding-top: 4px;">
         {{ if .dev.social.web }}<a class="btn devs" href="{{ .dev.social.web }}" target="_blank" data-bs-toggle="tooltip" data-bs-title="Website"><i class="fa-solid fa-globe" style="float: right;"></i></a>{{ end }}
         {{ if .dev.social.email }}<a class="btn devs" href="mailto:{{ .dev.social.email }}" target="_blank" data-bs-toggle="tooltip" data-bs-title="Email"><i class="fa-solid fa-envelope" style="float: right;"></i></a>{{ end }}
         {{ if .dev.social.github }}<a class="btn devs" href="https://github.com/{{ .dev.social.github }}" target="_blank" data-bs-toggle="tooltip" data-bs-title="Github"><i class="fa-brands fa-github" style="float: right;"></i></a>{{ end }}
         {{ if .dev.social.twitter }}<a class="btn devs" href="http://twitter.com/{{ .dev.social.twitter }}" target="_blank" data-bs-toggle="tooltip" data-bs-title="Twitter"><i class="fa-brands fa-twitter" style="float: right;"></i></a>{{ end }}
         {{ if .dev.social.reddit }}<a class="btn devs" href="https://reddit.com/u/{{ .dev.social.reddit }}" target="_blank" data-bs-toggle="tooltip" data-bs-title="Reddit"><i class="fa-brands fa-reddit" style="float: right;"></i></a>{{ end }}
         {{ if .dev.social.discord }}<a class="btn devs" href="http://discordapp.com/users/{{ .dev.social.discord }}" target="_blank" data-bs-toggle="tooltip" data-bs-title="Discord"><i class="fa-brands fa-discord" style="float: right;"></i></a>{{ end }}
+        {{ if .dev.social.linkedin }}<a class="btn devs" href="https://www.linkedin.com/in/{{ .dev.social.linkedin }}" target="_blank" data-bs-toggle="tooltip" data-bs-title="Linkedin"><i class="fa-brands fa-linkedin" style="float: right;"></i></a>{{ end }}
         {{ if .dev.social.dogeTipAddress }}<a class="btn devs" href="{{ .dev.social.dogeTipAddress }}" target="_blank" data-bs-toggle="tooltip" data-bs-title="Dogecoin: {{ .dev.social.dogeTipAddress }}"><i class="fa-solid fa-paw" style="float: right;"></i></a>{{ end }}
       </div>      
-        <div class="col-5" style="padding: 0px; margin:0px">
-            <button type="button" class="btn btn-light" style="border-radius: 0px; width: 100%;"  data-bs-toggle="collapse" data-bs-target='#collapseProjects{{$.Scratch.Get "counter"}}' aria-expanded="false" aria-controls='collapseProjects{{$.Scratch.Get "counter"}}' >Projects <span class="float-right badge bg-dark" style="margin-top: 2px;">{{ len .dev.dogeProjects }}</span></button>
+        <div class="col-3" style="padding: 0px; margin:0px">
+            <button type="button" class="btn btn-light" style="border-radius: 0px; border-radius: 5px; float: right;"  data-bs-toggle="collapse" data-bs-target='#collapseProjects{{$.Scratch.Get "counter"}}' aria-expanded="false" aria-controls='collapseProjects{{$.Scratch.Get "counter"}}' > <span data-bs-toggle="tooltip" data-bs-title="Dogecoin {{ $.Site.Params.projects }}" class="float-right badge bg-dark" style="margin-top: 2px;">{{ len .dev.dogeProjects }}</span></button>
         </div>
         <div class="collapse" id='collapseProjects{{$.Scratch.Get "counter"}}'>
           <div class="card card-body">

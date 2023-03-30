@@ -1,15 +1,12 @@
 +++
 order = 1 #order of the project
+uri = "libdogecoin" #name of the folder
 date = "2022-12-09" #date creation
 title = "LibDogecoin" #name of the project
 aliases = ["LibDogecoin"] # name of the project
-type = "projects" # projects
-social_Type = "github" # types available: twitter, github, reddit, outher
-social_User = "dogecoinfoundation"
-social_URL = "https://github.com/dogecoinfoundation"
-social_Image = "https://avatars.githubusercontent.com/u/6355206?s=200&v=4" # leave blank to not use any image
-version = "v0.1.1"
-description = "Libdogecoin will be a complete implementation of the Dogecoin Protocols, as a C library (and series of bindings to popular languages)"
+type = "gettingstarted" # getting-started
+subtype = "introduction" # introduction, install, contents
+version = "v0.1.2"
 [ author ]
   name = "Dogecoin Foundation"
 +++
