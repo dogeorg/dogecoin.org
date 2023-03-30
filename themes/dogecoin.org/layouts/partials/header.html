@@ -74,7 +74,7 @@
 {{ range .Site.Menus.main }}
                     <li class="nav-item">
                         <a href="{{ .URL }}" class="nav-link">
-                            {{ $icon := printf "<i class=\"fa-solid fa-%s\"></i> " .Pre | safeHTML }}
+                            {{ $icon := printf "<i class=\"nav-icon fas fa-solid fa-%s\"></i> " .Pre | safeHTML }}
                             {{ $icon }}
                             <p>
                                 {{ .Name }}
@@ -85,7 +85,6 @@
                 </ul>
             </nav>
             <!-- /.sidebar-menu -->
-
 
                 <!-- SidebarSearch Form -->
             <div class="form-inline search-left-doge-menu" style="margin-top: 5px !important;">
