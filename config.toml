@@ -70,6 +70,11 @@ theme = "dogecoin.org"
         pre = "tag"
         url = "/blog/"
         weight = 4
+    [[languages.en.menu.main]]
+        name = "Forum"
+        pre = "users"
+        url = "https://forum.dogecoin.org"
+        weight = 5        
 
 ## End English Language here
 ## Start Portuguese Language here
