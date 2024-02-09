@@ -7,7 +7,7 @@
  */
 
 (function () {
-    const themeToggle = document.querySelector(".theme-toggle");
+    const themeToggles = document.querySelectorAll('.theme-toggle');
     const chosenTheme =
         window.localStorage && window.localStorage.getItem("theme");
     let chosenThemeIsDark = chosenTheme == "dark";
@@ -50,8 +50,10 @@
     }
 
     // Event listener
-    if (themeToggle) {
-        themeToggle.addEventListener("click", switchTheme, false);
+    if (themeToggles.length > 0) {
+        themeToggles.forEach(function(themeToggle) {
+            themeToggle.addEventListener("click", switchTheme, false);
+        });
         window
             .matchMedia("(prefers-color-scheme: dark)")
             .addEventListener("change", (e) => e.matches && detectOSColorTheme());

@@ -1,25 +1,71 @@
-<header id="header" class="header">
-    <span class="header__inner">
-        {{ partial "logo.html" . }}
+<doge-nav>
+	<doge-site-picker slot="brand" selected="foundation"></doge-site-picker>
+	{{ $pages := .Site.Pages }}
+    {{ range .Site.Menus.main -}}
+    	{{ if .Children }}
+    	<doge-nav-list>
+    		<a slot="selected" href="{{ .URL | relLangURL }}">{{ .Name }} <small>▼</small></a>
+    		{{ range .Children -}}
+            	{{ $pageCollection := where $pages "Section" "==" .Identifier }}
+            	{{ $pageCount := len $pageCollection }}
+            	{{ if gt $pageCount 0}}
+            		<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+            	{{- end }}
+            {{- end }}
+    	</doge-nav-list>
+    	{{ else }}
+    	<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+    	{{ end }}
+    	
+    {{- end }}
+    <div>
+        {{- if .Site.Params.EnableThemeToggle }}
+        <span class="theme-toggle not-selectable">{{ partial "theme-toggle-icon.html" . }}</span>
+        {{- end}}
+    </div>
+    {{ partial "locale.html" . }}
+	<doge-nav-mobile slot="mobile">
+		<div slot="controls" class="mobile-controls">
+		    <div>
+        	{{- if .Site.Params.EnableThemeToggle }}
+        		<span class="theme-toggle not-selectable">{{ partial "theme-toggle-icon.html" . }}</span>
+        	{{- end}}
+		    </div>
+		    {{ partial "locale.html" . }}
+		</div>
+		{{ range .Site.Menus.main -}}
+			{{ if .Children }}
+				<span>{{ .Name }}</span>
+				{{ range .Children -}}
+            	{{ $pageCollection := where $pages "Section" "==" .Identifier }}
+            	{{ $pageCount := len $pageCollection }}
+            	{{ if gt $pageCount 0}}
+            		<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+            	{{- end }}
+            {{- end }}
+			{{ else }}
+				<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+			{{ end }}
+		{{- end }}
+	</doge-nav-mobile>
+</doge-nav>
 
-        <nav class="header__right">
-            {{ if len .Site.Menus }}
-                {{ partial "menu.html" . }}
-                <span class="menu-trigger">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-                    </svg>
-                </span>
-            {{ end }}
-            <div class="divider"></div>
-            <span class="tooltip">
-                {{- if .Site.Params.EnableThemeToggle }}
-                <span title="Theme Toggle" class="theme-toggle not-selectable">{{ partial "theme-toggle-icon.html" . }}</span>
-                {{- end}}
-            </span>
-            <div class="divider"></div>
-            {{ partial "locale.html" . }}
-        </nav>
-    </span>
-</header>
+<style>
+	.mobile-controls {
+		display: flex;
+		justify-content: flex-end;
+		gap: 16px;
+		align-items: end;
+	}
+
+	.mobile-controls .locale {
+		min-width: unset;
+	}
+
+	.mobile-controls .locale:hover .locale-list {
+	  left: unset !important;
+	  right: 0px;
+	}
+</style>
+
+<script type="module" src="https://fetch.dogecoin.org/doge-nav.js"></script>
