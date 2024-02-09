@@ -1,0 +1,60 @@
+# Translations for English
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# Generic
+#
+[translations]
+other = "Translations"
+
+[postAvailable]
+other = "Also available in"
+
+
+# 404.html
+#
+[archives]
+other = "Archives"
+
+[home]
+other = "Home"
+
+# Homepage strings
+[dogecoin]
+other = "Dogecoin"
+
+[foundation]
+other = "Foundation"
+
+[onlygood]
+other = "Do Only Good Everyday"
+
+# Footer strings
+[dogecoinfoundation]
+other = "Dogecoin foundation"
+
+[website-by]
+other = "Website by"
+
+[theme-by]
+other = "Theme by"
+
+
+[notFound]
+other = "Oops, page not found…"
+
+
+# posts/single.html
+#
+[readingTime]
+one   = "One minute"
+other = "{{ .Count }} minutes"
+
+[tableOfContents]
+other = "Table of Contents"
+
+[wordCount]
+one   = "One Word"
+other = "{{ .Count }} Words"
+
+[lastModified]
+other = "Last updated"

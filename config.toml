@@ -1,139 +1,385 @@
-baseURL = 'http://dogecoin.org/'
-languageCode = 'en-us'
-title = 'Dogecoin.org'
-theme = "dogecoin.org"
+baseURL = "https://foundation.dogecoin.com"
+title   = "Dogecoin Foundation"
+languageCode = "en-us"
+theme = "hello-friend-ng"
 
-[markup.goldmark.renderer]
-    unsafe = true # Allow HTML in md files
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Dogecoin Foundation"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Metadata mostly used in document's head
+  #
+  description = "Dogecoin Foundation"
+  keywords = "dogecoin foundation"
+  images = ["doge.png"]
+
+  # Home subtitle of the index page.
+  #
+  homeSubtitle = "Do Only Good Everyday"
+
+  # Set a background for the homepage
+  # backgroundImage = "/assets/images/screenshot.png"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  #
+  # gitUrl = ""
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  #
+  disableReadOtherPosts = false
+
+  # Enable theme toggle
+  #
+  # This options enables the theme toggle for the theme.
+  # Per default, this option is off.
+  # The theme is respecting the prefers-color-scheme of the operating systeme.
+  # With this option on, the page user is able to set the scheme he wants.
+  enableThemeToggle = true
+
+  # Sharing buttons
+  #
+  # There are a lot of buttons preconfigured. If you want to change them,
+  # generate the buttons here: https://sharingbuttons.io
+  # and add them into your own `layouts/partials/sharing-buttons.html`
+  #
+  enableSharingButtons = true
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  #
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  #
+  justifyContent = false  # Set "text-align: justify" to .post-content.
+
+  # Custom footer
+  # If you want, you can easily override the default footer with your own content.
+  #
+  [params.footer]
+    trademark = true
+    rss = true
+    copyright = false
+    author = true
+
+    topText = []
+    bottomText = [
+      "Powered by Doges with <a href=\"http://gohugo.io\">Hugo</a>",
+      "Theme made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    ]
+
+  # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = "Dogecoin"
+    logoText     = ">"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+     logoCursorDisabled = true
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+  # Commento is more than just a comments widget you can embed —
+  # it’s a return to the roots of the internet.
+  # An internet without the tracking and invasions of privacy.
+  # An internet that is simple and lightweight.
+  # An internet that is focused on interesting discussions, not ads.
+  # A better internet.
+  # Uncomment this to enable Commento.
+  #
+  # [params.commento]
+  #   url = ""
+
+  # Uncomment this if you want a portrait on your start page
+  #
+   [params.portrait]
+     path     = "/doge.png"
+     alt      = "Portrait"
+     maxWidth = "200px"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/dogecoinfdn"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/dogecoinfoundation"
+
+  [[params.social]]
+    name = "reddit"
+    url  = "https://www.reddit.com/r/dogecoindev"
 
 [languages]
-
-## Start English Language here
-[languages.en]
-    subtitle  = "Much Welcome"
+  [languages.en]
+    subtitle  = "Welcome"
     weight    = 1
-    contentDir = "content/en"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-[languages.en.params]
+  [languages.fr]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-    ## index
-    learn_run_deploy = "Learn, Run, Deploy on "
-    blockchain = "Blockchain"
-    javascript = "Javascript"
-    go = "Go"
-    python = "Python"
-    php = "PHP"
-    emulator = "Emulator"
+  [languages.de]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 3
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-    ##side menu
-    getting_started = "Getting Started"
-    introduction = "Introduction"
-    install = "Install"
-    contents = "Contents"
-    how_to = "How To"
-    examples = "Examples"
-    #blockchain = "BlockChain"
-    projects_list = "Projects List"
-    dogecoin_devs = "Dogecoin Devs"
+  [languages.he]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 4
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-    ##folders
-    much_start_coding = "much-start-coding"
-    such_dogecoin_projects = "such-dogecoin-projects"
-    so_dogecoin_blog = "so-dogecoin-blog"
+  [languages.zh-cn]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 5
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    [languages.zh-cn.menu]
+      [[languages.zh-cn.menu.main]]
+        identifier = "home"
+        name       = "主页"
+        url        = "/"
+        weight     = 1
+      [[languages.zh-cn.menu.main]]
+        identifier = "about"
+        name       = "关于"
+        url        = "about/"
+        weight     = 2
+      [[languages.zh-cn.menu.main]]
+        identifier = "manifesto"
+        name       = "宣言"
+        url        = "manifesto/"
+        weight     = 3
+      [[languages.zh-cn.menu.main]]
+        identifier = "trailmap"
+        name       = "路线"
+        url        = "trailmap/prologue"
+        weight     = 4
+      [[languages.zh-cn.menu.main]]
+        identifier = "news"
+        name       = "新闻"
+        url        = "news/"
+        weight     = 5
+        [languages.zh-cn.menu.main.params]
+          class = "parent"
+      [[languages.zh-cn.menu.main]]
+        identifier = "press"
+        name       = "Press Releases"
+        url        = "press/"
+        weight     = 1
+        parent     = "news"
+      [[languages.zh-cn.menu.main]]
+        identifier = "advisories"
+        name       = "告示"
+        url        = "advisories/"
+        weight     = 2
+        parent     = "news"
+      [[languages.zh-cn.menu.main]]
+        identifier = "announcements"
+        name       = "公告"
+        url        = "announcements/"
+        weight     = 3
+        parent     = "news"
 
-    ##projects
-    such_projects = "Such Dogecoin Projects"
-    projects = "Projects"
-    project = "Project"
-    description = "Description"
-    social = "Social"
+  [languages.pt]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 6
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
+  [languages.no]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 8
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-[languages.en.menu]
-    [[languages.en.menu.main]]
-        name = "Wow"
-        pre = "house"
-        url = "/"
-        weight = 1
-    [[languages.en.menu.main]]
-        name = "Getting Started"
-        pre = "code"
-        url = "/much-start-coding/"
-        weight = 2
-    [[languages.en.menu.main]]
-        name = "Projects"
-        pre = "paw"
-        url = "/such-dogecoin-projects/"
-        weight = 3
-    [[languages.en.menu.main]]
-        name = "Blog"
-        pre = "tag"
-        url = "/blog/"
-        weight = 4
-    [[languages.en.menu.main]]
-        name = "Forum"
-        pre = "users"
-        url = "https://forum.dogecoin.org"
-        weight = 5        
+  [languages.th]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 9
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-## End English Language here
-## Start Portuguese Language here
-[languages.pt]
-    subtitle  = "Much Welcome"
-    weight    = 1
-    contentDir = "content/pt"
+  [languages.zh-tw]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 10
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-[languages.pt.params]
+  [languages.id]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 11
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-    ## index
-    javascript = "Javascript"
-    go = "Go"
-    python = "Python"
-    php = "PHP"
-    emulator = "Emulator"
+  [languages.es]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 12
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    [languages.es.menu]
+      [[languages.es.menu.main]]
+        identifier = "home"
+        name       = "Inicio"
+        url        = "/"
+        weight     = 1
+      [[languages.es.menu.main]]
+        identifier = "about"
+        name       = "Acerca de"
+        url        = "about/"
+        weight     = 2
+      [[languages.es.menu.main]]
+        identifier = "manifesto"
+        name       = "Manifiesto"
+        url        = "manifesto/"
+        weight     = 3
+      [[languages.es.menu.main]]
+        identifier = "trailmap"
+        name       = "Hoja de ruta"
+        url        = "trailmap/prologue"
+        weight     = 4
+      [[languages.es.menu.main]]
+        identifier = "news"
+        name       = "Noticias"
+        url        = "news/"
+        weight     = 5
+        [languages.es.menu.main.params]
+          class = "parent"
+      [[languages.es.menu.main]]
+        identifier = "press"
+        name       = "Comunicados de prensa"
+        url        = "press/"
+        weight     = 1
+        parent     = "news"
+      [[languages.es.menu.main]]
+        identifier = "advisories"
+        name       = "Avisos"
+        url        = "advisories/"
+        weight     = 2
+        parent     = "news"
+      [[languages.es.menu.main]]
+        identifier = "announcements"
+        name       = "Anuncios"
+        url        = "announcements/"
+        weight     = 3
+        parent     = "news"
 
-    ##side menu
-    getting_started = "Getting Started"
-    introduction = "Introduction"
-    install = "Install"
-    contents = "Contents"
-    how_to = "How To"
-    examples = "Examples"
-    #blockchain = "BlockChain"
-    projects_list = "Projects List"
-    dogecoin_devs = "Dogecoin Devs"
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "/"
+    weight     = 1
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+    weight     = 2
+  [[menu.main]]
+    identifier = "manifesto"
+    name       = "Manifesto"
+    url        = "manifesto/"
+    weight     = 3
+  [[menu.main]]
+    identifier = "trailmap"
+    name       = "Trailmap"
+    url        = "trailmap/prologue/"
+    weight     = 4
+  [[menu.main]]
+    identifier = "blogMain"
+    name       = "Blog"
+    url        = "/blog/"
+    weight     = 5
+  [[menu.main]]
+    identifier = "news"
+    name       = "News"
+    url        = "news/"
+    weight     = 6
+    [menu.main.params]
+      class = "parent"
+  [[menu.main]]
+    identifier = "press"
+    name       = "Press Releases"
+    url        = "press/"
+    weight     = 1
+    parent     = "news"
+  [[menu.main]]
+    identifier = "jobs"
+    name       = "Jobs"
+    url        = "jobs/"
+    weight     = 2
+    parent     = "news"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "blog/"
+    weight     = 2
+    parent     = "news"
 
-    ##folders
-    much_start_coding = "much-start-coding"
-    such_dogecoin_projects = "such-dogecoin-projects"
-    so_dogecoin_blog = "so-dogecoin-blog"
-
-    ##projects
-    such_projects = "Such Dogecoin Projects"
-    projects = "Projects"
-    project = "Project"
-    description = "Description"
-    social = "Social"
-
-[languages.pt.menu]
-    [[languages.pt.menu.main]]
-        name = "Wow"
-        pre = "house"
-        url = "/"
-        weight = 1
-    [[languages.pt.menu.main]]
-        name = "Getting Started"
-        pre = "code"
-        url = "/much-start-coding/"
-        weight = 2
-    [[languages.pt.menu.main]]
-        name = "Projects"
-        pre = "paw"
-        url = "/such-dogecoin-projects/"
-        weight = 3
-    [[languages.pt.menu.main]]
-        name = "Blog"
-        pre = "tag"
-        url = "/so-dogecoin-blog/"
-        weight = 4
-## End Portuguese Language here
+  [[menu.main]]
+    identifier = "advisories"
+    name       = "Advisories"
+    url        = "advisories/"
+    weight     = 2
+    parent     = "news"
+  [[menu.main]]
+    identifier = "announcements"
+    name       = "Announcements"
+    url        = "announcements/"
+    weight     = 3
+    parent     = "news"

@@ -1,0 +1,78 @@
+.logo {
+  color: #ffffff;
+  display: flex;
+  text-decoration: none;
+  font-weight: bold;
+  font-display: auto;
+
+  .logo-coin {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .logo-doge {
+    @media #{$media-size-phone} {
+      max-width: 150px;
+    }
+  }
+
+  &.coin {
+    .logo-doge {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .logo-coin {
+      opacity: 1;
+      width: auto;
+      height: auto;
+      @media #{$media-size-phone} {
+        max-width: 150px;
+      }
+    }
+
+  }
+
+  img {
+    transition: opacity .2s ease-in;
+  }
+
+  &__mark {
+    margin-right: 5px;
+  }
+
+  &__text {
+    font-size: 1.125rem;
+  }
+
+  &__cursor {
+    display: inline-block;
+    width: 10px;
+    height: 1rem;
+    background: #fe5186;
+    margin-left: 5px;
+    border-radius: 1px;
+    animation: cursor 1s infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    &__cursor {
+      animation: none;
+    }
+  }
+
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
