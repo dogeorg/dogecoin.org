@@ -1,0 +1,229 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Announcements on Dogecoin Foundation</title><link>https://foundation.dogecoin.com/th/announcements/</link><description>Recent content in Announcements on Dogecoin Foundation</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sat, 31 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foundation.dogecoin.com/th/announcements/index.xml" rel="self" type="application/rss+xml"/><item><title>Dogecoin CoreFund and Foundation updates</title><link>https://foundation.dogecoin.com/th/announcements/2022-12-31-corefund/</link><pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate><guid>https://foundation.dogecoin.com/th/announcements/2022-12-31-corefund/</guid><description>Such Core, Much Development, Wow. We are happy to announce the institution of a new community Dogecoin Core development fund, managed by existing core developers and Dogecoin Foundation board director signatories, along with transparency blog posts forthcoming for all expenditures and developments. The Dogecoin Foundation has taken the step of moving 5,000,000 Dogecoin to the development fund, with the intent that this will be allocated to Dogecoin Core, the development of which is critical and to the benefit of the Dogecoin ecosystem.</description><content type="html"><![CDATA[<h2 id="such-core-much-development-wow">Such Core, Much Development, Wow.</h2>
+<p>We are happy to announce the institution of a new community Dogecoin Core development fund, managed by existing core developers and Dogecoin Foundation board director signatories, along with transparency blog posts forthcoming for all expenditures and developments.
+The Dogecoin Foundation has taken the step of moving 5,000,000 Dogecoin to the development fund, with the intent that this will be allocated to Dogecoin Core, the development of which is critical and to the benefit of the Dogecoin ecosystem.</p>
+<p>This is  a new, segregated multi-signature wallet, designed to transparently manage a sum of 5,000,000 DOGE. The DOGE held in this wallet will disburse rewards to developers of Dogecoin Core for work on all contributions, no matter how big or small.</p>
+<p>This new multi-signature wallet will be operated by Dogecoin Core developers and members of the Dogecoin Foundation. The wallet is secured with a three out of five signature threshold, with the following custodians:</p>
+<ul>
+<li>chromatic (Dogecoin Core developer)</li>
+<li>Marshall Hayner (Dogecoin Foundation Board)</li>
+<li>Michi Lumin (Dogecoin Core developer, Dogecoin Foundation Board)</li>
+<li>Patrick Lodder (Dogecoin Core developer)</li>
+<li>Ross Nicoll (Former Dogecoin Core developer)</li>
+</ul>
+<p>The address can be found here:</p>
+<h3 id="9xep9voinlw7y7ds87m8qrqkm43r6r5km5">9xEP9voiNLw7Y7DS87M8QRqKM43r6r5KM5</h3>
+<p>The wallet shall operate as follows:</p>
+<ol>
+<li>With every major or minor release of Dogecoin Core, 500,000 DOGE shall be distributed among all contributors credited in the release notes since the previous major or minor release, exclusively. A release must meet a threshold of at least 25 non-whitespace/comment-only pull requests to qualify as a major or minor release. These are the only permissible transfers out from this wallet.</li>
+<li>The height of the payout for each individual contributor will be weighed based on the process used for the Dogecoin Core tip jar, to minimize duplication of work, or based thereon if no functional Dogecoin Core tip jar exists at that time.</li>
+<li>Custodians do not have any rights to the money held in the wallet, individually or as a group.</li>
+<li>All distributions shall be publicly announced and distributed widely across social media channels to the best of the abilities of the custodians.</li>
+<li>A custodian can only request succession for their own slot but cannot nominate their successor. The remaining custodians shall publicly nominate a replacement and unanimously agree on the appointment of the successor. When this process is completed in full and a successor is appointed, the custodian is relieved of all duties.</li>
+<li>If a custodian is unreachable without notice for a period of 3 months or more, the remaining custodians shall initiate a succession process under clause 5. The affected custodian shall be permitted to return to active duty until the succession process has been completed in full.</li>
+</ol>
+<h2 id="welcome-marshall">Welcome Marshall!</h2>
+<p>We would also like to welcome Marshall Hayner to the Dogecoin Foundation board of directors at this time, his consistent commitment to the Dogecoin community and the development of Dogecoin has inspired many. Marshall brings executive and technical leadership experience to the Dogecoin Foundation and has been instrumental in creating this Core development fund.</p>
+<p>This Holiday Season the Dogecoin Foundation wants to send our warmest greetings to you and your family. We hope that you can find joy and cheer in celebrating with the ones you love and taking care of yourselves!</p>
+<p>Sincerely,</p>
+<p>&ndash; The Dogecoin Foundation</p>
+]]></content></item><item><title>Dogecoin Foundation to join the wDoge DAO</title><link>https://foundation.dogecoin.com/th/announcements/2022-09-12-wdoge-bridge/</link><pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate><guid>https://foundation.dogecoin.com/th/announcements/2022-09-12-wdoge-bridge/</guid><description>You may have heard talk about bridges in crypto, and recently in relation to Dogecoin.If you search around online for bridges to any major blockchain such as Bitcoin or Ethereum you’ll find plenty of them.
+So what are bridges, and how do they affect everyday Shibes using Dogecoin? Much like a physical bridge connects two locations, a crypto bridge connects two blockchains together to allow interaction: usually to allow one coin to be used on the other side of the bridge.</description><content type="html"><![CDATA[<img src="/doge-bridge-logo.png" class='center' width='600'/>
+<p>You may have heard talk about bridges in crypto, and recently in relation to Dogecoin.If you
+search around online for bridges to any major blockchain such as Bitcoin or Ethereum you’ll find plenty of them.</p>
+<h2 id="so-what-are-bridges-and-how-do-they-affect-everyday-shibes-using-dogecoin">So what are bridges, and how do they affect everyday Shibes using Dogecoin?</h2>
+<p>Much like a physical bridge connects two locations, a crypto bridge connects two blockchains together to allow interaction: usually to allow one coin to be used on the other side of the bridge.  Many of the bridges we see today are used to take a cryptocurrency such as Dogecoin or Bitcoin, and allow them to be used on a smart-contract blockchain such as Ethereum.</p>
+<p>Bridges operate by providing a ‘wrapped token’ on the non-origin side, usually representing a 1-1 relationship between the ‘coin’ on the first chain, and the ‘token’ on the other.  In the case of Doge, this allows a Dogecoin holder to transfer some Dogecoin into a wallet controlled by the bridge: either via a custodian, or more ideally by a decentralised, automated smart-contract.</p>
+<p><strong>You trade Doge to an entity which gives you an amount of ‘wrapped dogecoin’ on the foreign blockchain.</strong></p>
+<p>The promise of these ‘wrapped tokens’ is that they allow participation in new financial activities not available on the original chain, such as the ability to loan Dogecoin to another person, or to transfer ownership of your wrapped dogecoin via a smart-contract, as would occur if you bought NFTs via a wrapped token.</p>
+<h2 id="doge-ethereum-bridge-now-wdoge">Doge-Ethereum bridge, now wDoge.</h2>
+<p>Back in 2017 Dogecoin developer Ross Nicoll and Ethereum founder Vitalik Buterin discussed the possibility of a Doge - Eth bridge, and a bounty was established by members of both communities to inspire the development of an effective, fair bridge between the two blockchains.</p>
+<p>Since then Oscar Guindzberg and colleagues have been researching and developing the bridge with the aim of allowing Dogecoin to be integrated into the Ethereum smart-contract ecosystem in a safe and secure fashion.  Recently Oscar and co-founder Gabriel Reiter have established <a href="https://bluepepper.io">Blue Pepper</a>, a commercial startup to provide full time development focus on bridging the two chains with <a href="https://wdoge.tech">wDoge</a>.</p>
+<h2 id="dogecoin-foundation-joining-the-wdoge-dao">Dogecoin Foundation joining the wDoge DAO.</h2>
+<p>Blue Pepper has written about the <a href="https://medium.com/@bluepepper/doge-eth-bridge-past-present-and-future-89f7623bcab6">history of the bridge</a> and how it will function, and is in the process of establishing a DAO (decentralized autonomous organisation) of companies, non-profits and individuals from the Dogecoin community to govern the bridge protocol. The DAO will be responsible for governing via vote the means to upgrade the bridge’s smart-contracts and to add custodians or merchants.</p>
+<p>Blue Pepper have provided a transparent and open approach to developing a pragmatic middle-ground as a stepping stone while they continue to research and develop greater decentralisation mechanisms for bridging Dogecoin and Ethereum, and it is for this reason the the Dogecoin Foundation have agreed to become a trusted key holder in the wDoge DAO as the next logical step in the bridge’s evolution.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>As the Dogecoin ecosystem continues to expand and develop, transparent bridges built by recognised Shibes who are openly engaging with the community while building utility for Dogecoin will provide important building blocks for the future of decentralised financial systems.</p>
+<p>These projects offer interesting opportunities for Dogecoin holders to make use of their Doge in new and novel ways, and through their wDoge project, Oscar, Gabriel and the Blue Pepper team are demonstrating how this can be achieved in an open and transparent manner.</p>
+<p>We’re looking forward to seeing what great things they can achieve.</p>
+<p>— Timothy Stebbing and the Dogecoin Foundation crew.</p>
+]]></content></item><item><title>Announcing the Inaugural Dogecoin Hackathon</title><link>https://foundation.dogecoin.com/th/announcements/2022-09-08-dogeathon-downunder/</link><pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate><guid>https://foundation.dogecoin.com/th/announcements/2022-09-08-dogeathon-downunder/</guid><description>G&amp;rsquo;day shibes everywhere!
+The Dogecoin Foundation is delighted to announce that registrations are now open for the 2022 Dogeathon Downunder hackathon in sunny Australia (or online) kicking off on Nov 15th.
+https://dogecoin.com/dogeathon/
+We&amp;rsquo;re inviting devs of all skill levels to join us to #HackTheDoge with a 4 day hackathon involving prizes, much fun, and adventure as we build the Dogecoin Ecosystem together!
+Taking place in the Yarra Ranges, Australia, with online-participation available for global participants, the Dogeathon will showcase the power of Dogecoin&amp;rsquo;s new and old integration solutions - LibDogecoin, GigaWallet API, Core API, Doge-Eth Bridge, &amp;amp; more - as we BUIDL the future of the Peoples&amp;rsquo; Cryptocurrency, and increase the surface area of the Dogecoin ecosystem.</description><content type="html"><![CDATA[<img src="/dogeathon-logo.png" class='center' width='300'/>
+<p>G&rsquo;day shibes everywhere!</p>
+<p>The Dogecoin Foundation is delighted to announce that registrations are now open for
+the 2022 Dogeathon Downunder hackathon in sunny Australia (or online) kicking off on Nov 15th.</p>
+<p><a href="https://dogecoin.com/dogeathon/">https://dogecoin.com/dogeathon/</a></p>
+<p>We&rsquo;re inviting devs of all skill levels to join us to #HackTheDoge with a 4 day hackathon involving
+prizes, much fun, and adventure as we build the Dogecoin Ecosystem together!</p>
+<p>Taking place in the Yarra Ranges, Australia, with online-participation available for global
+participants, the Dogeathon will showcase the power of Dogecoin&rsquo;s new and old integration solutions - LibDogecoin,
+GigaWallet API, Core API, Doge-Eth Bridge, &amp; more - as we BUIDL the future of the Peoples&rsquo; Cryptocurrency,
+and increase the surface area of the Dogecoin ecosystem.</p>
+<h3 id="background">Background</h3>
+<p>Seven months ago, the Dogecoin Foundation’s Timothy Stebbing <a href="https://foundation.dogecoin.com/blog/2022-02-15-tjstebbing/">outlined</a> the Foundation&rsquo;s
+approach to promoting Dogecoin Development, through a strong focus on building the Dogecoin Ecosystem and increasing the number of developers
+working on all things Dogecoin. This included highlighting some of the key drivers of the various projects that the Foundation is working on.</p>
+<p>One of the Foundation’s primary goals has been to drastically expand what it means to be a ‘Dogecoin developer’, and champion projects that
+lower the barrier for many new people to get involved at different levels: through libraries, documentation, mentoring, and community
+engagement. Essentially, foster a ‘Dogecoin developer ecosystem’ of hundreds of new people so the #DogeDevArmy is strong, spread across
+many projects.</p>
+<p>The first Foundation projects - Libdogecoin (Dogecoin C library) and GigaWallet (payment service) - are key stepping stones toward making
+this goal a reality. As we&rsquo;ve begun to see the fruits of these labors with the first release of Libdogecoin - and many devs wrapping
+and using the library from different languages - we want to take the opportunity to see what amazing new things folk can build using these
+and other tools. <em>Enter the Dogeathon!</em></p>
+<p>The Dogecoin Foundation is aiming for the Dogeathon Downunder 2022 to set the stage for a more significant CampDoge Conference in 2023 and
+beyond, which will be held in different locations around the globe every year in the service of promoting Dogecoin development in the future.</p>
+<p>The event will feature both Community and Prize Awards, the latter being judged by an esteemed panel of Dogecoin champions! The current Prize
+pool starts at <strong>Ð 200,069.00</strong>, and Shibes can tip the Prize Pool address to increase the award. Judges will be announced soon. Much wow.</p>
+<p>Dogeathon Downunder is made possible by these much amaze sponsors:</p>
+<p>EVENT SPONSORS:</p>
+<ul>
+<li>Blue Pepper (<a href="https://bluepepper.io/">https://bluepepper.io/</a>)</li>
+<li>Metallicus (<a href="https://metallicus.com/">https://metallicus.com/</a>)</li>
+</ul>
+<p>DO ONLY GOOD EVERYDAY SPONSOR:</p>
+<ul>
+<li>MyDoge (<a href="https://mydoge.com/">https://mydoge.com/</a>)</li>
+</ul>
+<p>If your company would like to join the list of sponsors, please <a href="mailto:events@dogecoin.com">get in touch</a>.</p>
+<p>&ndash; The Dogecoin Foundation Crew</p>
+]]></content></item><item><title>Dogecoin.com redesign ready for preview and feedback</title><link>https://foundation.dogecoin.com/th/announcements/2022-06-15-website-relaunch/</link><pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate><guid>https://foundation.dogecoin.com/th/announcements/2022-06-15-website-relaunch/</guid><description>Nine months ago we set about building a community group to overhaul the old dogecoin.com website, and create a team who could collectively work on any future websites for Dogecoin.
+After putting out the call for volunteers on Reddit and Twitter we gathered a group of around 20 Shibes with a wide variety of talents: from writing and translation, to HTML, CSS and graphic design.
+Since then the team, beginning with foundation.</description><content type="html"><![CDATA[<p>Nine months ago we set about building a community group to overhaul the old
+dogecoin.com website, and create a team who could collectively work on any
+future websites for Dogecoin.</p>
+<p>After putting out the call for volunteers on Reddit and Twitter we gathered a
+group of around 20 Shibes with a wide variety of talents: from writing and
+translation, to HTML, CSS and graphic design.</p>
+<p>Since then the team, beginning with foundation.dogecoin.com developed a
+system for publishing, translating and maintaining websites for the Dogecoin
+community. The next step was to apply that system to a full re-design of the
+dogecoin.com site.</p>
+<hr>
+<h3 id="previewdogecoincom">preview.dogecoin.com</h3>
+<img class="dogegoin-light" src="/website-redesign.png" alt="Dogecoin Website">
+<p>Today we would love to welcome community feedback on the preview of the new
+website, which you can see at <a href="https://preview.dogecoin.com">preview.dogecoin.com</a></p>
+<p>The translations are not all in place yet and there are some minor mobile issues,
+however we&rsquo;re excited to get this out as a preview for a two week period to let
+folk have a read through the &ldquo;Dogepedia&rdquo; articles, make suggestions via the <a href="https://github.com/dogecoinfoundation/dogecoin.com/issues">GitHub issues</a>
+system or even get involved.</p>
+<p>If you&rsquo;re keen to be part of the website team reach out to Paulo (Inevitable360)
+for an invitation to the Discord server and the GitHub project.  You will need to
+work with <em>git</em> and <em>markdown</em> however we&rsquo;ve got some great community members who
+are available to help explain the process.</p>
+<p>A huge shout-out to all the people who have made this possible:</p>
+<p>CB, Belle, Bluezr, Ella, Florian, Ishan, Sam, Michi, Misha, Paulo, Richard, Tim,
+Florian, Mishaboar, Dogememegirl, Adi, Doge Norway, Doge France, Bobdos, BeanieFi,
+Claudiu05, CresentOdyssey, Dogespacewizard, Emon, Horizon, Lars, Mademeday, Memetaverse,
+Rasoul, Yamazaki .. and anyone else we&rsquo;ve missed! Thank you!</p>
+<p>&ndash; The Web Team</p>
+<p>PS: You might be wondering where the developer focused content is, links to GitHub, how
+to get involved etc.. we&rsquo;ve actually secured the dogecoin.org domain and will be
+looking at how we can best use that as a &lsquo;Dogecoin Developer Portal&rsquo; to accompany
+dogecoin.com as the &lsquo;Dogecoin User Portal&rsquo;.</p>
+]]></content></item><item><title>Ross Nicoll Stepping into an Advisor Role for the Dogecoin Foundation</title><link>https://foundation.dogecoin.com/th/announcements/2022-02-24-update-ross/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://foundation.dogecoin.com/th/announcements/2022-02-24-update-ross/</guid><description>Recently Ross made public his decision to step back from involvement in the Foundation as a Director and more generally from active development in the crypto space.
+While this is news to many in the community, Ross had made his intentions clear to the Core developers almost a year ago and has been working quietly behind the scenes to create a sustainable transition for his role in the Dogecoin project.</description><content type="html"><![CDATA[<p>Recently Ross <a href="https://rnicoll.name/posts/2022-02-16-stepping-away/">made public his decision</a> to
+step back from involvement in the Foundation as a Director and more generally from
+active development in the crypto space.</p>
+<p>While this is news to many in the community, Ross had made his intentions clear to
+the Core developers almost a year ago and has been working quietly behind the scenes
+to create a sustainable transition for his role in the Dogecoin project.</p>
+<p>With this in mind, Ross has been instrumental in the re-establishment of the Dogecoin
+Foundation in 2021. The Foundation has been set up to ensure that Dogecoin prospers
+into the future through a diverse ecosystem of projects and teams, working in
+collaboration toward making Dogecoin a long-term sustainable cryptocurrency.</p>
+<p>While this may be seen as a loss for the Dogecoin Community, we believe that Ross&rsquo;
+ongoing involvement as an Advisor will free him up to play more of an advocacy role.
+On behalf of the Dogecoin Foundation and the wider Dogecoin community, we salute Ross
+for his tireless work on maintaining the Dogecoin dream for most of the last decade.</p>
+<p>We will miss the top hat, the easy going British humour, and the boundless wisdom in
+our day-to-day interactions, and we wish Ross a bright and happy future as he continues
+to Do Only Good Everyday.</p>
+<p>&ndash; The Dogecoin Foundation crew.</p>
+]]></content></item><item><title>Dogecoin Foundation Update &amp; AMA on January 23rd, 2022</title><link>https://foundation.dogecoin.com/th/announcements/2022-01-21-update-ama/</link><pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate><guid>https://foundation.dogecoin.com/th/announcements/2022-01-21-update-ama/</guid><description>The Dogecoin Foundation, established and led by members of the original core development team and long-time members of the Dogecoin community, has responsibility for providing advocacy and support for the Dogecoin cryptocurrency project.
+Since 2014, the Foundation&amp;rsquo;s sole mission has been to protect and support the Dogecoin project, its reputation, and the global community of Shibes. The Foundation is committed to ensuring that Dogecoin continues to thrive, and can ultimately scale to being a widely used currency whilst simultaneously tackling changes at a pace that keeps-up with other cryptocurrencies.</description><content type="html"><![CDATA[<p>The Dogecoin Foundation, established and led by members of the original core development team
+and long-time members of the Dogecoin community, has responsibility for providing advocacy
+and support for the Dogecoin cryptocurrency project.</p>
+<p>Since 2014, the Foundation&rsquo;s sole mission has been to protect and support the Dogecoin project,
+its reputation, and the global community of Shibes. The Foundation is committed to ensuring that
+Dogecoin continues to thrive, and can ultimately scale to being a widely used currency whilst
+simultaneously tackling changes at a pace that keeps-up with other cryptocurrencies.</p>
+<p>On January 23rd, 2022, three members of the Foundation, Michi Lumin, Ross Nicoll, and Tim Stebbing
+will be participating in a video AMA (Ask-Me-Anything) with the community. The AMA will be live
+streamed <a href="https://youtu.be/jctze9jZfTQ">here</a>. In anticipation of the AMA, a short update of recent Foundation
+activities, all of which have been undertaken for the benefit of the Dogecoin community, includes:</p>
+<ul>
+<li>
+<p>Launching the first <a href="/trailmap/prologue/">Dogecoin Trailmap</a> to provide a vision for the future of the Dogecoin ecosystem.</p>
+</li>
+<li>
+<p>Engaging with and consulting several potential commercial and non-commercial users of the GigaWallet project, gathering requirements and breaking ground on development.</p>
+</li>
+<li>
+<p>Gathering a like-minded group of developers from the community interested in contributing to the Libdogecoin project and commencing development.</p>
+</li>
+<li>
+<p>Establishing a team of community website and translation volunteers who are working diligently on the upcoming dogecoin.com website and the ‘Dogepedia’ in multiple languages.</p>
+</li>
+<li>
+<p>On-boarding long-term and previously unpaid volunteers in key functions, treating those individuals fairly and ensuring that the Dogecoin ecosystem can be resourced consistently in the future.</p>
+</li>
+<li>
+<p>Establishing good governance and compliance principles, working with legal, accounting, and tax advisors to ensure proper use of any Foundation funds only for the benefit of the Dogecoin community.</p>
+</li>
+<li>
+<p>Supporting and promoting the use of Dogecoin for important charitable causes, for example with <a href="https://dogecoin.com/teamseas/">#TeamSeas</a>, helping remove more than 30,000,000 pounds of trash from the oceans.</p>
+</li>
+<li>
+<p>Started collaborating with non-profits that share Dogecoin’s spirit of playful discovery and learning such as <a href="https://hackclub.com/">Hack Club</a>.</p>
+</li>
+<li>
+<p>Preventing hostile parties (including large corporates) from taking over or claiming ownership of Dogecoin through, e.g., bad faith trademark registrations; or to mislead the community by pretending to be Dogecoin or be affiliated with it. For example, please see our recent tweet <a href="https://twitter.com/DogecoinFdn/status/1484474892569305088?s=20">here</a></p>
+</li>
+<li>
+<p>Ensuring that the Dogecoin name, logo, and memes remain available for the community to use freely.</p>
+</li>
+<li>
+<p>Liaising with the community, investors, technologists and other stakeholders around the world, to devise and implement opportunities for the cryptocurrency, to future-proof it for everyone.</p>
+</li>
+</ul>
+<p>Importantly, all of these actions have been taken to ensure that Dogecoin remains the People’s
+cryptocurrency for years to come. The Foundation is dedicated, as always, to <strong>D</strong>oing <strong>O</strong>nly <strong>G</strong>ood <strong>E</strong>veryday.
+The Foundation is currently putting together a note which will provide more detail regarding the Foundation’s
+strategy, funding, and Tip Jar transactions. We look forward to sharing this information with you in the coming weeks.</p>
+<p>You can read more about the Dogecoin Foundation, its members and its work at <a href="https://foundation.dogecoin.com/">https://foundation.dogecoin.com/</a>.</p>
+]]></content></item><item><title>แถลงการณ์: การจัดตั้งมูลนิธิ Dogecoin ขึ้นมาอีกครั้ง</title><link>https://foundation.dogecoin.com/th/announcements/2020-08-15-foundation-announcement/</link><pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate><guid>https://foundation.dogecoin.com/th/announcements/2020-08-15-foundation-announcement/</guid><description>วันนี้เป็นอีกวันหนึ่งที่ต้องจดจำของพวกเราเพราะวันนี้ถือป็นวันแรกที่ได้มีประกาศการจัดตั้ง &amp;ldquo;มูลนิธิ Dogecoin&amp;rdquo; ขึ้นมาอีกครั้ง การจัดตั้งครั้งใหม่นี้มาพร้อมกับการกำหนดจุดประสงค์ของมูลนิธิที่มีความต้องการสนับสนุนระบบนิเวศน์ทางธุรกิจ การสร้างชุมชนชาว &amp;ldquo;Dogecoin&amp;rdquo; และการประชาสัมพันธ์ทรัพย์สินดิจิตอล &amp;ldquo;Dogecoin&amp;rdquo;
+เป้าหมายของเรา มูลนิธิ Dogecoin มีหลักการดำเนินงานที่ไม่ต้องการผูกขาดการควบคุมดูแลโครงการ &amp;ldquo;Dogecoin Core Wallet&amp;rdquo; ซึ่งในปัจจุบันถือว่าเป็นโครงการหลักในการพัฒนากระเป๋าเงินดิจิตอลของ Dogecoin เรามีจุดมุ่งหมายที่จะกระตุ้นการพัฒนาโดยการให้การสนับสนุนทีมนักพัฒนา &amp;ldquo;Dogecoin Core&amp;rdquo; ในปัจจุบันและรวมถึงนักพัฒนารุ่นต่อๆ ไปของ &amp;ldquo;Dogecoin&amp;rdquo; ที่ควรจะต้องได้รับการสนับสนุนพิเศษให้สามารถทุ่มเททำงานให้ทาง &amp;ldquo;Dogecoin&amp;rdquo; แบบเต็มเวลา รวมไปถึงการเตรียมพร้อมที่จะเปิดให้มีการรับสมัครผู้ที่สนใจต้องการช่วยและร่วมเป็นส่วนหนึ่งของทีมนักพัฒนา &amp;ldquo;Dogecoin&amp;rdquo; ในอนาคตต่อไป
+มูลนิธิ Dogecoin ยังมองไปถึงการขยายระบบนิเวศน์ทางธุรกิจของ &amp;ldquo;Dogecoin&amp;rdquo; ในอนาคต และในอีกไม่กี่สัปดาห์ข้างหน้านี้จะมีการประกาศโครงการใหม่ของเราซึ่งจะมีผลทำให้กระเป๋าเงินดิจิตอล (Core Wallet) มีความรวดเร็วใจการทำงานและง่ายต่อการประสานงานกับโครงการอื่นๆ ทั้งทางด้านการเงิน สังคมและองค์กรการกุศลต่างๆที่ต้องการจะเปิดรับ &amp;ldquo;Dogecoin&amp;rdquo; เรามีความเชื่อมั่นว่า &amp;ldquo;Dogecoin&amp;rdquo; จะประสบความสำเร็จในการได้รับการยอมรับจากองค์กรต่างๆของโลกใบนี้ และเรายังมีเป้าหมายที่จะสร้างการยอมรับเหรียญเงินดิจิตอล &amp;ldquo;Dogecoin&amp;rdquo; ในระดับต่างๆต่อไป
+การปกป้องชื่อเสียงและคำว่า &amp;ldquo;Dogecoin&amp;rdquo;
+ตลอดหลายปีที่ผ่านมาชุมชน &amp;ldquo;Dogecoin&amp;rdquo; ได้พยายามมองแต่ในแง่ดีและมีความหวังว่าทุกคนจะพยายามสร้างสรรค์แต่สิ่งที่เกิดประโยชน์กับชื่อและโลโก้ของเรา เรายึดหลักการที่ว่า คำว่า &amp;ldquo;Dogecoin&amp;rdquo; ต้องถือว่าเป็นของของทุกคนอย่างเท่าเทียมกัน อย่างไรก็ตามทุกวันนี้ได้มีกลุ่มคนหลายกลุ่มที่มีความพยายามจะผูกขาดทางกฎหมายของชื่อ &amp;ldquo;Dogecoin&amp;rdquo; และไม่ยอมให้คนอื่นได้ใช้ประโยชน์จากชื่อ &amp;ldquo;Dogecoin&amp;rdquo; ได้
+เราอยากประกาศให้ทราบกันอย่างทั่วถึงว่าหนึ่งในกรรมการมูลนิธิของเรา &amp;ldquo;Jens Weichers&amp;rdquo; ได้พยายามต่อสู้เพื่อปกป้องการกระทำที่ไม่ประสงค์ดีดังกล่าวต่อลิขสิทธิ์ ชื่อ &amp;ldquo;Dogecoin&amp;rdquo; มาโดยตลอด โดยมีความหวังอยากให้ทุกคนมีสิทธิ์ที่จะใช้คำว่า &amp;ldquo;Dogecoin&amp;rdquo; ร่วมกันอย่างถูกต้องเท่าเทียม โดยมูลนิธิจะเป็นตัวแทนของชุมชนชาวชุมชน &amp;ldquo;Dogecoin&amp;rdquo; ที่จะเป็นผู้ถือลิขสิทธิ์ชื่อและโลโก้แทนทุกๆ คน และสิ่งนี้จะแปลว่าทางเราจะขอยืนหยัดต่อสู้เพื่อปกป้องชื่อ &amp;ldquo;Dogecoin&amp;rdquo; และจะอนุญาตให้มีการใช้ในกรณีที่เกี่ยวกับการทำภาพ Meme โครงการต่างๆ และใช้เพื่อความสนุกสนานของชุมชนเราเท่านั้น</description><content type="html"><![CDATA[<p>วันนี้เป็นอีกวันหนึ่งที่ต้องจดจำของพวกเราเพราะวันนี้ถือป็นวันแรกที่ได้มีประกาศการจัดตั้ง &ldquo;มูลนิธิ Dogecoin&rdquo; ขึ้นมาอีกครั้ง การจัดตั้งครั้งใหม่นี้มาพร้อมกับการกำหนดจุดประสงค์ของมูลนิธิที่มีความต้องการสนับสนุนระบบนิเวศน์ทางธุรกิจ การสร้างชุมชนชาว &ldquo;Dogecoin&rdquo; และการประชาสัมพันธ์ทรัพย์สินดิจิตอล &ldquo;Dogecoin&rdquo;</p>
+<h3 id="เปาหมายของเรา">เป้าหมายของเรา</h3>
+<p>มูลนิธิ Dogecoin มีหลักการดำเนินงานที่ไม่ต้องการผูกขาดการควบคุมดูแลโครงการ &ldquo;Dogecoin Core Wallet&rdquo; ซึ่งในปัจจุบันถือว่าเป็นโครงการหลักในการพัฒนากระเป๋าเงินดิจิตอลของ Dogecoin เรามีจุดมุ่งหมายที่จะกระตุ้นการพัฒนาโดยการให้การสนับสนุนทีมนักพัฒนา &ldquo;Dogecoin Core&rdquo; ในปัจจุบันและรวมถึงนักพัฒนารุ่นต่อๆ ไปของ &ldquo;Dogecoin&rdquo; ที่ควรจะต้องได้รับการสนับสนุนพิเศษให้สามารถทุ่มเททำงานให้ทาง &ldquo;Dogecoin&rdquo; แบบเต็มเวลา รวมไปถึงการเตรียมพร้อมที่จะเปิดให้มีการรับสมัครผู้ที่สนใจต้องการช่วยและร่วมเป็นส่วนหนึ่งของทีมนักพัฒนา &ldquo;Dogecoin&rdquo; ในอนาคตต่อไป</p>
+<p>มูลนิธิ Dogecoin ยังมองไปถึงการขยายระบบนิเวศน์ทางธุรกิจของ &ldquo;Dogecoin&rdquo; ในอนาคต และในอีกไม่กี่สัปดาห์ข้างหน้านี้จะมีการประกาศโครงการใหม่ของเราซึ่งจะมีผลทำให้กระเป๋าเงินดิจิตอล (Core Wallet) มีความรวดเร็วใจการทำงานและง่ายต่อการประสานงานกับโครงการอื่นๆ ทั้งทางด้านการเงิน สังคมและองค์กรการกุศลต่างๆที่ต้องการจะเปิดรับ &ldquo;Dogecoin&rdquo; เรามีความเชื่อมั่นว่า &ldquo;Dogecoin&rdquo; จะประสบความสำเร็จในการได้รับการยอมรับจากองค์กรต่างๆของโลกใบนี้ และเรายังมีเป้าหมายที่จะสร้างการยอมรับเหรียญเงินดิจิตอล &ldquo;Dogecoin&rdquo; ในระดับต่างๆต่อไป</p>
+<p>การปกป้องชื่อเสียงและคำว่า &ldquo;Dogecoin&rdquo;</p>
+<p>ตลอดหลายปีที่ผ่านมาชุมชน &ldquo;Dogecoin&rdquo; ได้พยายามมองแต่ในแง่ดีและมีความหวังว่าทุกคนจะพยายามสร้างสรรค์แต่สิ่งที่เกิดประโยชน์กับชื่อและโลโก้ของเรา เรายึดหลักการที่ว่า คำว่า &ldquo;Dogecoin&rdquo; ต้องถือว่าเป็นของของทุกคนอย่างเท่าเทียมกัน อย่างไรก็ตามทุกวันนี้ได้มีกลุ่มคนหลายกลุ่มที่มีความพยายามจะผูกขาดทางกฎหมายของชื่อ &ldquo;Dogecoin&rdquo; และไม่ยอมให้คนอื่นได้ใช้ประโยชน์จากชื่อ &ldquo;Dogecoin&rdquo; ได้</p>
+<p>เราอยากประกาศให้ทราบกันอย่างทั่วถึงว่าหนึ่งในกรรมการมูลนิธิของเรา &ldquo;Jens Weichers&rdquo; ได้พยายามต่อสู้เพื่อปกป้องการกระทำที่ไม่ประสงค์ดีดังกล่าวต่อลิขสิทธิ์ ชื่อ &ldquo;Dogecoin&rdquo; มาโดยตลอด โดยมีความหวังอยากให้ทุกคนมีสิทธิ์ที่จะใช้คำว่า &ldquo;Dogecoin&rdquo; ร่วมกันอย่างถูกต้องเท่าเทียม โดยมูลนิธิจะเป็นตัวแทนของชุมชนชาวชุมชน &ldquo;Dogecoin&rdquo; ที่จะเป็นผู้ถือลิขสิทธิ์ชื่อและโลโก้แทนทุกๆ คน และสิ่งนี้จะแปลว่าทางเราจะขอยืนหยัดต่อสู้เพื่อปกป้องชื่อ &ldquo;Dogecoin&rdquo; และจะอนุญาตให้มีการใช้ในกรณีที่เกี่ยวกับการทำภาพ Meme โครงการต่างๆ และใช้เพื่อความสนุกสนานของชุมชนเราเท่านั้น</p>
+<h3 id="แถลงการณ-the-dogecoin-manifesto">แถลงการณ์ &ldquo;The Dogecoin Manifesto&rdquo;</h3>
+<p>เราพยายามคิดมาตลอดว่าคำว่า &ldquo;Dogecoin&rdquo; ควรจะมีความหมายอย่างไรในฐานะที่เป็นโครงการและการเคลื่อนไหวเพื่อนำไปสู่สิ่งที่ดีต่อโลกของเรา อย่างไรก็ตามเราขอสรุปความหมายของคำว่า &ldquo;Dogecoin&rdquo; ไว้เป็นสี่หัวข้อ ซึ่งเราขอเรียกมันว่า &ldquo;Dogecoin Manifesto&rdquo; โดยจะมีสองหัวข้อที่เกี่ยวกับเรื่องทางเทคนิคและอีกสองหัวข้อจะเกี่ยวกับสังคมของเราทุกคน</p>
+<p>เรามีความเชื่อว่าคติประจำใจหลักของชุมชนเราที่ว่า &ldquo;Do Only Good Everyday&rdquo; จะเป็นหลักยึดเหนี่ยวที่เราจะใช้ในทุกๆ การตัดสินใจที่ส่งผลต่อชาวชุมชน และเป็นแนวทางในพัฒนาระบบนิเวชทางธุรกิจของเรา</p>
+<p><a href="/manifesto">The Dogecoin Manifesto</a></p>
+<p>คุณสามารถเป็นส่วนหนึ่งของแถลงการณ์ &ldquo;Manifesto&rdquo; ครั้งนี้ได้ด้วยการคลิกลิงค์ด้านล่างของหน้า &ldquo;Manifesto&rdquo; และสิ่งนี้จะเป็นการประกาศต่อชาวโลกทุกคนถึงความพยายามของพวกเราชาว &ldquo;Doge Army&rdquo;</p>
+<h3 id="หยดกอน-รวมมอและฟง">หยุดก่อน! รวมมือและฟัง!</h3>
+<p>หนึ่งในหลักการสำคัญของแถลงการณ์ &ldquo;Manifesto&rdquo; นั้น เราให้ความสำคัญกับความเชื่อใจและความร่วมมือซึ่งกันและกัน ซึ่งจะถูกยึดถือไว้เหนือการแข่งขันและการผูกขาด เพราะฉะนั้นการที่เรายึดถือหลักการนี้ไว้ในใจ พวกเราจึงได้ทำการจัดตั้งกลุ่มคณะที่ปรึกษาซึ่งเป็นผู้มีประสบการณ์ในแวดวงต่างๆ ที่จะมาช่วยสนับสนุนให้คำปรึกษากับพวกเราชาว Dogecoin</p>
+<p><a href="/about">ลองเข้าไปดูรายชื่อคณะที่ปรึกษาของมูลนิธิ</a> และอย่าลืมมอบความรักและความห่วงใยต่อที่ปรึกษาทุกท่านที่เสียสละเวลาอันมีค่ามาเพื่อพวกเรากันนะ</p>
+<h3 id="คณคาของความสำเรจ">คุณค่าของความสำเร็จ</h3>
+<p>มูลนิธิ &ldquo;Dogecoin&rdquo; สามารถจัดตั้งขึ้นได้อีกครั้งจากความช่วยเหลือของอาสาสมัครมากมายที่ช่วยกันทำงานอย่างไม่รู้จักเหน็ดเหนื่อยในระยะเวลาหลายเดือนที่ผ่านมา ถึงแม้กระนั้นก็ตามแม้เราจะทำงานกันไม่กี่คน &ldquo;Dogecoin&rdquo; ก็ได้เติบโตขึ้นอย่างมากมายมหาศาล มูลค่าของการเติบโตนั้นเหนือกว่าองค์กรขนาดใหญ่ที่มีพนักงานหลักพันคน (ขณะที่เขียน Dogecoin มีมูลค่าถึงสี่แสนสี่หมื่นล้านดอลล่าห์สหรัฐ)</p>
+<p>ในที่สุดแล้วพวกเราได้ค้นพบว่าผู้คนมากมายที่ทำงานอย่างไม่หยุดหย่อนเพื่อสร้าง &ldquo;Dogecoin&rdquo; ให้ประสบความสำเร็จมากในทุกวันนี้ต้องประสบกับปัญหาการแบ่งเวลาที่กระทบกับการทำงานประจำ ความเหน็ดเหนื่อย ความล้าที่ต้องจัดการกับความสนใจที่ถาโถมมาจากทุกทิศทาง (ทั้งในด้านดีและร้าย)</p>
+<p>คนรุ่นใหม่ที่มีความสามารถหลายคนได้เดินเข้ามาหาพวกเราและหวังว่าจะมาช่วยแบ่งเบาภาระเหล่านี้ แต่ทางเราไม่เหลือใครที่ว่างพอจะมาต้อนรับและจัดการให้พวกเขาได้ช่วยทำในสิ่งที่อยากทำ และในที่สุดคนเหล่านั้นก็ต้องเดินจากไปด้วยความผิดหวัง</p>
+<h3 id="sponsorship">Sponsorship</h3>
+<p>เรามีความเชื่อว่าการพัฒนา Dogecoin ให้ประสบความสำเร็จนั้นจำเป็นต้องมีทีมงานที่มีประสิทธิภาพและต้องทำงานแบบเต็มเวลา ทั้งนี้ทางมูลนิธิได้มีการจัดเตรียมงบประมาณในส่วนนี้ไว้บางส่วน และยังได้รับความสนใจจากอีกหลายๆ ท่านที่ต้องการเข้ามาร่วมช่วยเหลือสนับสนุนพวกเรา เราตั้งความหวังว่าจะสร้างทีมงานมาช่วยจัดการภารกิจต่างๆของ Dogecoin และทีมนักพัฒนาที่มีประสิทธิภาพสูงโดยทั้งหมดควรจะได้รับการสนับสนุนงบประมาณเป็นรายปี</p>
+<p>เป้าหมายแรกของเราคือการใช้งบประมาณอย่างมีประสิทธิภาพในระยะเวลาสามปีต่อจากนี้ เรามีการวางแผนที่จะสร้างทีมงานขนาดเล็กที่สุดเท่าที่จะเป็นไปได้ที่พร้อมจะทำงานแบบเต็มเวลาโดยไม่ต้องกังวลกับปัญหาทางเศรษฐกิจหรือจำเป็นการหางานอื่นๆ เพิ่ม</p>
+<p>สุดท้ายนี้พวกเราอยากบอกว่า ถ้าคุณมีความพร้อมและมีความต้องการที่จะสนับสนุน &ldquo;มูลนิธิ Dogecoin&rdquo; พวกเราพร้อมเสมอที่จะพูดคุยกับคุณ</p>
+<p></br></br>
+ด้วยรัก,  — &ldquo;มูลนิธิ Dogecoin&rdquo;
+</br></br></p>
+]]></content></item></channel></rss>

@@ -1,0 +1,237 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Announcements on Dogecoin Foundation</title><link>https://foundation.dogecoin.com/zh-cn/announcements/</link><description>Recent content in Announcements on Dogecoin Foundation</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sat, 31 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foundation.dogecoin.com/zh-cn/announcements/index.xml" rel="self" type="application/rss+xml"/><item><title>Dogecoin CoreFund and Foundation updates</title><link>https://foundation.dogecoin.com/zh-cn/announcements/2022-12-31-corefund/</link><pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate><guid>https://foundation.dogecoin.com/zh-cn/announcements/2022-12-31-corefund/</guid><description>Such Core, Much Development, Wow. We are happy to announce the institution of a new community Dogecoin Core development fund, managed by existing core developers and Dogecoin Foundation board director signatories, along with transparency blog posts forthcoming for all expenditures and developments. The Dogecoin Foundation has taken the step of moving 5,000,000 Dogecoin to the development fund, with the intent that this will be allocated to Dogecoin Core, the development of which is critical and to the benefit of the Dogecoin ecosystem.</description><content type="html"><![CDATA[<h2 id="such-core-much-development-wow">Such Core, Much Development, Wow.</h2>
+<p>We are happy to announce the institution of a new community Dogecoin Core development fund, managed by existing core developers and Dogecoin Foundation board director signatories, along with transparency blog posts forthcoming for all expenditures and developments.
+The Dogecoin Foundation has taken the step of moving 5,000,000 Dogecoin to the development fund, with the intent that this will be allocated to Dogecoin Core, the development of which is critical and to the benefit of the Dogecoin ecosystem.</p>
+<p>This is  a new, segregated multi-signature wallet, designed to transparently manage a sum of 5,000,000 DOGE. The DOGE held in this wallet will disburse rewards to developers of Dogecoin Core for work on all contributions, no matter how big or small.</p>
+<p>This new multi-signature wallet will be operated by Dogecoin Core developers and members of the Dogecoin Foundation. The wallet is secured with a three out of five signature threshold, with the following custodians:</p>
+<ul>
+<li>chromatic (Dogecoin Core developer)</li>
+<li>Marshall Hayner (Dogecoin Foundation Board)</li>
+<li>Michi Lumin (Dogecoin Core developer, Dogecoin Foundation Board)</li>
+<li>Patrick Lodder (Dogecoin Core developer)</li>
+<li>Ross Nicoll (Former Dogecoin Core developer)</li>
+</ul>
+<p>The address can be found here:</p>
+<h3 id="9xep9voinlw7y7ds87m8qrqkm43r6r5km5">9xEP9voiNLw7Y7DS87M8QRqKM43r6r5KM5</h3>
+<p>The wallet shall operate as follows:</p>
+<ol>
+<li>With every major or minor release of Dogecoin Core, 500,000 DOGE shall be distributed among all contributors credited in the release notes since the previous major or minor release, exclusively. A release must meet a threshold of at least 25 non-whitespace/comment-only pull requests to qualify as a major or minor release. These are the only permissible transfers out from this wallet.</li>
+<li>The height of the payout for each individual contributor will be weighed based on the process used for the Dogecoin Core tip jar, to minimize duplication of work, or based thereon if no functional Dogecoin Core tip jar exists at that time.</li>
+<li>Custodians do not have any rights to the money held in the wallet, individually or as a group.</li>
+<li>All distributions shall be publicly announced and distributed widely across social media channels to the best of the abilities of the custodians.</li>
+<li>A custodian can only request succession for their own slot but cannot nominate their successor. The remaining custodians shall publicly nominate a replacement and unanimously agree on the appointment of the successor. When this process is completed in full and a successor is appointed, the custodian is relieved of all duties.</li>
+<li>If a custodian is unreachable without notice for a period of 3 months or more, the remaining custodians shall initiate a succession process under clause 5. The affected custodian shall be permitted to return to active duty until the succession process has been completed in full.</li>
+</ol>
+<h2 id="welcome-marshall">Welcome Marshall!</h2>
+<p>We would also like to welcome Marshall Hayner to the Dogecoin Foundation board of directors at this time, his consistent commitment to the Dogecoin community and the development of Dogecoin has inspired many. Marshall brings executive and technical leadership experience to the Dogecoin Foundation and has been instrumental in creating this Core development fund.</p>
+<p>This Holiday Season the Dogecoin Foundation wants to send our warmest greetings to you and your family. We hope that you can find joy and cheer in celebrating with the ones you love and taking care of yourselves!</p>
+<p>Sincerely,</p>
+<p>&ndash; The Dogecoin Foundation</p>
+]]></content></item><item><title>狗狗币基金会加入wDoge的去中心化自治组织</title><link>https://foundation.dogecoin.com/zh-cn/announcements/2022-09-12-wdoge-bridge/</link><pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate><guid>https://foundation.dogecoin.com/zh-cn/announcements/2022-09-12-wdoge-bridge/</guid><description>你可能听说过一些有关加密货币桥的信息，尤其最近与狗狗币相关的。如果你搜索其他加密货币比如比特币和以太坊的桥，你会发现有更多的内容。
+那么到底什么是桥，又如何影响我们日常使用狗狗币呢？ 在现实生活中，桥的作用是将两个地点连接起来，而加密货币桥能将两个区块链连接起来，使得两者能够交互，通过桥可以在一个区块链上使用另一区块链的货币。 我们今天看到的很多桥，能够让比如狗狗币、比特币这样的加密货币，在智能合约区块链比如以太坊上使用起来。
+桥通过在其他区块链上提供“封装的代币”来运作，在原始区块链和其他区块链上实现1:1的原币、代币对应关系。 对于狗狗币来说，桥允许狗狗币持币者将狗狗币通过托管，或者更理想的去中心化、自动化智能合约转移到桥钱包里。
+你把狗狗币发送给一个机构，用以换取来自其他区块链上“封装后的狗狗代币”。
+&amp;ldquo;封装代币&amp;quot;允许持有人涉足在原始区块链上无法参与的新金融活动，比如将狗狗币出借给其他人，又或者在购买NFT时通过智能合约支付封装后的狗狗代币。。
+曾经的狗狗币-以太坊桥，现在称为wDoge。 2017年，狗狗币开发者Ross Nicoll和以太坊创始人Vitalik Buterin就讨论过建立狗狗币-以太坊桥的可能性，两个社区的成员都建立了赏金，来激励在两个区块链之间建立有效、公正的桥。
+从那时起，Oscar Guindzberg和同事们就一直在研究和开发这个桥，希望将狗狗币安全、可靠的集成到以太坊智能合约生态中。 最近，Oscar和Gabriel Reiter联合创立了Blue Pepper，一家专门从事开发将狗狗币和以太坊连接起来的wDoge桥的商业公司。
+狗狗币基金会加入wDoge的去中心化自治组织 Blue Pepper撰写了桥的历史以及运转机制的文章，并且正在建立一个由狗狗币 社区里的个人、非盈利组织以及公司组成的DAO（去中心化自治组织）管理的桥协议。这个DAO将投票决定桥智能合约的更新以及增加托管人、商家等事宜。
+Blue Pepper将持续研发狗狗币和以太坊桥接的去中心化机制，并且是以一种透明、开放的方式务实推进。因此，狗狗币基金会同意成为wDoge DAO受信任的密钥持有人之一，这是wDoge桥可持续发展的必要一步。
+总结 随着狗狗币生态的不断发展，由狗狗币社区公开参与的机制透明的桥协议，将在狗狗币的应用中为去中心化金融系统的未来提供重要的基石。
+这些项目将为狗狗币持有者提供使用狗狗币的新颖、有趣的方案，Oscar、Gabriel以及Blue Pepper团队通过他们的wDoge项目，正在展示如何以公开、透明的方式实现这些方案。
+期待看到他们的伟大成就。
+— Timothy Stebbing及狗狗币基金会同仁。</description><content type="html"><![CDATA[<img src="/doge-bridge-logo.png" class='center' width='600'/>
+<p>你可能听说过一些有关加密货币桥的信息，尤其最近与狗狗币相关的。如果你搜索其他加密货币比如比特币和以太坊的桥，你会发现有更多的内容。</p>
+<h2 id="那么到底什么是桥又如何影响我们日常使用狗狗币呢">那么到底什么是桥，又如何影响我们日常使用狗狗币呢？</h2>
+<p>在现实生活中，桥的作用是将两个地点连接起来，而加密货币桥能将两个区块链连接起来，使得两者能够交互，通过桥可以在一个区块链上使用另一区块链的货币。 我们今天看到的很多桥，能够让比如狗狗币、比特币这样的加密货币，在智能合约区块链比如以太坊上使用起来。</p>
+<p>桥通过在其他区块链上提供“封装的代币”来运作，在原始区块链和其他区块链上实现1:1的原币、代币对应关系。 对于狗狗币来说，桥允许狗狗币持币者将狗狗币通过托管，或者更理想的去中心化、自动化智能合约转移到桥钱包里。</p>
+<p><strong>你把狗狗币发送给一个机构，用以换取来自其他区块链上“封装后的狗狗代币”。</strong></p>
+<p>&ldquo;封装代币&quot;允许持有人涉足在原始区块链上无法参与的新金融活动，比如将狗狗币出借给其他人，又或者在购买NFT时通过智能合约支付封装后的狗狗代币。。</p>
+<h2 id="曾经的狗狗币-以太坊桥现在称为wdoge">曾经的狗狗币-以太坊桥，现在称为wDoge。</h2>
+<p>2017年，狗狗币开发者Ross Nicoll和以太坊创始人Vitalik Buterin就讨论过建立狗狗币-以太坊桥的可能性，两个社区的成员都建立了赏金，来激励在两个区块链之间建立有效、公正的桥。</p>
+<p>从那时起，Oscar Guindzberg和同事们就一直在研究和开发这个桥，希望将狗狗币安全、可靠的集成到以太坊智能合约生态中。
+最近，Oscar和Gabriel Reiter联合创立了<a href="https://bluepepper.io">Blue Pepper</a>，一家专门从事开发将狗狗币和以太坊连接起来的<a href="https://wdoge.tech">wDoge</a>桥的商业公司。</p>
+<h2 id="狗狗币基金会加入wdoge的去中心化自治组织">狗狗币基金会加入wDoge的去中心化自治组织</h2>
+<p>Blue Pepper撰写了<a href="https://medium.com/@bluepepper/doge-eth-bridge-past-present-and-future-89f7623bcab6">桥的历史</a>以及运转机制的文章，并且正在建立一个由狗狗币
+社区里的个人、非盈利组织以及公司组成的DAO（去中心化自治组织）管理的桥协议。这个DAO将投票决定桥智能合约的更新以及增加托管人、商家等事宜。</p>
+<p>Blue Pepper将持续研发狗狗币和以太坊桥接的去中心化机制，并且是以一种透明、开放的方式务实推进。因此，狗狗币基金会同意成为wDoge DAO受信任的密钥持有人之一，这是wDoge桥可持续发展的必要一步。</p>
+<h2 id="总结">总结</h2>
+<p>随着狗狗币生态的不断发展，由狗狗币社区公开参与的机制透明的桥协议，将在狗狗币的应用中为去中心化金融系统的未来提供重要的基石。</p>
+<p>这些项目将为狗狗币持有者提供使用狗狗币的新颖、有趣的方案，Oscar、Gabriel以及Blue Pepper团队通过他们的wDoge项目，正在展示如何以公开、透明的方式实现这些方案。</p>
+<p>期待看到他们的伟大成就。</p>
+<p>— Timothy Stebbing及狗狗币基金会同仁。</p>
+]]></content></item><item><title>首届狗狗币黑客马拉松大会</title><link>https://foundation.dogecoin.com/zh-cn/announcements/2022-09-08-dogeathon-downunder/</link><pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate><guid>https://foundation.dogecoin.com/zh-cn/announcements/2022-09-08-dogeathon-downunder/</guid><description>全球各地的狗狗爱好者们!
+狗狗币基金会非常高兴的宣布，2022年线下狗狗币黑客马拉松大会（当然你也可以线上参会）将于11月15日在阳光明媚的澳大利亚举行，活动现在开放注册。
+https://dogecoin.com/dogeathon/
+我们将邀请开发者参加为期4天的 #黑客马拉松 活动，不论他们的技能水平高低。让我们一起来建设狗狗币生态，你将获得奖品、快乐和挑战！
+线下活动将在澳大利亚的亚拉山脉举行，全世界的其他参与者可以线上参加。大会将展示狗狗币的各种新的、老的项目方案，包括LibDogecoin、GigaWallet API、Core API和Doge-Eth Bridge 等。让我们来共同建设狗狗币这一人民加密货币，扩大狗狗币的生态。
+背景 七个月前，狗狗币基金会的Timothy Stebbing概述 了基金会将如何促进狗狗币开发，基金会将注重建设狗狗币生态，增加与之相关的开发者数量，这将强化基金会从事的各种项目的一些关键驱动因素。
+基金会的一个主要目标是显著增加对“狗狗币开发者”的支持，支持一些能够降低新人参与门槛的项目，比如代码库、文档、指引和社区参与。 本质上讲，就是培育一个由数百名新人组成的“狗狗币开发者生态”，壮大#狗狗币开发军团，充满各个项目。
+基金会项目最初的项目Libdogecoin（狗狗币的C语言代码库）和GigaWallet（支付服务）是实现这些目标的重要基石。我们开始看到Libdogecoin第一个版本发布后出现的一些成果， 许多开发者使用其他编程语言对其进行了打包和使用，我们也想看一下大家使用这些工具可以建造出怎样令人惊叹的新事物。来参加狗狗币黑客马拉松吧！
+狗狗币基金会计划让2022的线下狗狗币黑客马拉松大会为2023年及以后更重要的狗狗币活动会议奠定基础，该会议将每年在全球的不同地点举行，以促进狗狗币的未来发展。
+活动包括社区活动和颁奖，后者将由受认可的狗狗币评奖小组评定！当前奖池有 Ð 200,069.00，狗狗们可以向奖池地址打赏以增加奖金。评审团将很快公布，真令人期待！
+狗狗币黑客马拉松大会的线下活动是由这些优秀的赞助商赞助促成的：
+活动赞助商:
+Blue Pepper (https://bluepepper.io/) Metallicus (https://metallicus.com/) 每日正气赞助商:
+MyDoge (https://mydoge.com/) 如果贵公司想要成为赞助商，请与我们联系.
+&amp;ndash; 狗狗币基金会团队</description><content type="html"><![CDATA[<img src="/dogeathon-logo.png" class='center' width='300'/>
+<p>全球各地的狗狗爱好者们!</p>
+<p>狗狗币基金会非常高兴的宣布，2022年线下狗狗币黑客马拉松大会（当然你也可以线上参会）将于11月15日在阳光明媚的澳大利亚举行，活动现在开放注册。</p>
+<p><a href="https://dogecoin.com/dogeathon/">https://dogecoin.com/dogeathon/</a></p>
+<p>我们将邀请开发者参加为期4天的 #黑客马拉松 活动，不论他们的技能水平高低。让我们一起来建设狗狗币生态，你将获得奖品、快乐和挑战！</p>
+<p>线下活动将在澳大利亚的亚拉山脉举行，全世界的其他参与者可以线上参加。大会将展示狗狗币的各种新的、老的项目方案，包括LibDogecoin、GigaWallet API、Core API和Doge-Eth Bridge 等。让我们来共同建设狗狗币这一人民加密货币，扩大狗狗币的生态。</p>
+<h3 id="背景">背景</h3>
+<p>七个月前，狗狗币基金会的Timothy Stebbing<a href="https://foundation.dogecoin.com/blog/2022-02-15-tjstebbing/">概述</a> 了基金会将如何促进狗狗币开发，基金会将注重建设狗狗币生态，增加与之相关的开发者数量，这将强化基金会从事的各种项目的一些关键驱动因素。</p>
+<p>基金会的一个主要目标是显著增加对“狗狗币开发者”的支持，支持一些能够降低新人参与门槛的项目，比如代码库、文档、指引和社区参与。 本质上讲，就是培育一个由数百名新人组成的“狗狗币开发者生态”，壮大#狗狗币开发军团，充满各个项目。</p>
+<p>基金会项目最初的项目Libdogecoin（狗狗币的C语言代码库）和GigaWallet（支付服务）是实现这些目标的重要基石。我们开始看到Libdogecoin第一个版本发布后出现的一些成果，
+许多开发者使用其他编程语言对其进行了打包和使用，我们也想看一下大家使用这些工具可以建造出怎样令人惊叹的新事物。<em>来参加狗狗币黑客马拉松吧！</em></p>
+<p>狗狗币基金会计划让2022的线下狗狗币黑客马拉松大会为2023年及以后更重要的狗狗币活动会议奠定基础，该会议将每年在全球的不同地点举行，以促进狗狗币的未来发展。</p>
+<p>活动包括社区活动和颁奖，后者将由受认可的狗狗币评奖小组评定！当前奖池有 <strong>Ð 200,069.00</strong>，狗狗们可以向奖池地址打赏以增加奖金。评审团将很快公布，真令人期待！</p>
+<p>狗狗币黑客马拉松大会的线下活动是由这些优秀的赞助商赞助促成的：</p>
+<p>活动赞助商:</p>
+<ul>
+<li>Blue Pepper (<a href="https://bluepepper.io/">https://bluepepper.io/</a>)</li>
+<li>Metallicus (<a href="https://metallicus.com/">https://metallicus.com/</a>)</li>
+</ul>
+<p>每日正气赞助商:</p>
+<ul>
+<li>MyDoge (<a href="https://mydoge.com/">https://mydoge.com/</a>)</li>
+</ul>
+<p>如果贵公司想要成为赞助商，请与我们<a href="mailto:events@dogecoin.com">联系</a>.</p>
+<p>&ndash; 狗狗币基金会团队</p>
+]]></content></item><item><title>为重建Dogecoin.com提供预览和征集意见</title><link>https://foundation.dogecoin.com/zh-cn/announcements/2022-06-15-website-relaunch/</link><pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate><guid>https://foundation.dogecoin.com/zh-cn/announcements/2022-06-15-website-relaunch/</guid><description>九个月前，我们开始着手组建一个社区团队来改造旧的dogecoin.com网站，这个团队将在未来负责狗狗币网站的各种工作。
+在Reddit和Twitter上发出志愿者招募令后，我们招募到了大约20名狗狗爱好者并组建了团队，他们多才多艺，擅长写作、翻译、HTML、CSS以及图形设计。
+团队从foundation.dogecoin.com开始，为狗狗币社区开发了一套发布、翻译和维护网站的系统，下一步的工作是用该系统对dogecoin.com网站进行全面的重新设计。
+preview.dogecoin.com 现在，我们希望征集社区对新网站预览的反馈意见，新网站预览可点击preview.dogecoin.com查看。
+目前翻译还没有全部完成，还有一些移动端的小问题，但是我们还是很激动的提前2周放出预览，让大家浏览狗狗百科的文章，可以通过GitHub issues 提建议包括参与进来。
+如果你想成为网络团队的一员，请联系Paulo(Inevitable360)以获得Discord服务器和GitHub项目的邀请。你的工作需要使用git以及markdown，具体使用方法我们有一些社区成员可以帮助到您。
+向所有帮助实现这一切的人表示深深的感谢！他们是:
+CB，Belle，Bluezr，Ella，Florian，Ishan，Sam，Michi，Misha，Paulo，Richard，Tim，Florian，Mishaboar，Dogememegirl，Adi，Doge Norway，Doge France，Bobdos，BeanieFi，Claudiu05，CresentOdyssey，Dogespacewizard，Emon，Horizon，Lars，Mademeday，Memetaverse，RasoulYamazaki以及其他我们可能漏掉的人。
+&amp;ndash; 狗狗币网络团队
+PS：你可能还想知道比如开发人员目前在关注什么，GitHub链接在哪里，该如何参与进来，等等问题&amp;hellip;&amp;hellip;我们目前已经对dogecoin.org网址进行了保护，后边我们将研究一下，如何对其进行最好的利用，我们将把dogecoin.org作为狗狗币开发者的门户，而dogecoin.com将作为狗狗币用户门户。</description><content type="html"><![CDATA[<p>九个月前，我们开始着手组建一个社区团队来改造旧的dogecoin.com网站，这个团队将在未来负责狗狗币网站的各种工作。</p>
+<p>在Reddit和Twitter上发出志愿者招募令后，我们招募到了大约20名狗狗爱好者并组建了团队，他们多才多艺，擅长写作、翻译、HTML、CSS以及图形设计。</p>
+<p>团队从foundation.dogecoin.com开始，为狗狗币社区开发了一套发布、翻译和维护网站的系统，下一步的工作是用该系统对dogecoin.com网站进行全面的重新设计。</p>
+<hr>
+<h3 id="previewdogecoincom">preview.dogecoin.com</h3>
+<img class="dogegoin-light" src="/website-redesign.png" alt="Dogecoin Website">
+<p>现在，我们希望征集社区对新网站预览的反馈意见，新网站预览可点击<a href="https://preview.dogecoin.com">preview.dogecoin.com</a>查看。</p>
+<p>目前翻译还没有全部完成，还有一些移动端的小问题，但是我们还是很激动的提前2周放出预览，让大家浏览狗狗百科的文章，可以通过<a href="https://github.com/dogecoinfoundation/dogecoin.com/issues">GitHub issues</a> 提建议包括参与进来。</p>
+<p>如果你想成为网络团队的一员，请联系Paulo(Inevitable360)以获得Discord服务器和GitHub项目的邀请。你的工作需要使用git以及markdown，具体使用方法我们有一些社区成员可以帮助到您。</p>
+<p>向所有帮助实现这一切的人表示深深的感谢！他们是:</p>
+<p>CB，Belle，Bluezr，Ella，Florian，Ishan，Sam，Michi，Misha，Paulo，Richard，Tim，Florian，Mishaboar，Dogememegirl，Adi，Doge Norway，Doge France，Bobdos，BeanieFi，Claudiu05，CresentOdyssey，Dogespacewizard，Emon，Horizon，Lars，Mademeday，Memetaverse，RasoulYamazaki以及其他我们可能漏掉的人。</p>
+<p>&ndash; 狗狗币网络团队</p>
+<p>PS：你可能还想知道比如开发人员目前在关注什么，GitHub链接在哪里，该如何参与进来，等等问题&hellip;&hellip;我们目前已经对dogecoin.org网址进行了保护，后边我们将研究一下，如何对其进行最好的利用，我们将把dogecoin.org作为狗狗币开发者的门户，而dogecoin.com将作为狗狗币用户门户。</p>
+]]></content></item><item><title>Ross Nicoll担任狗狗币基金会顾问</title><link>https://foundation.dogecoin.com/zh-cn/announcements/2022-02-24-update-ross/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://foundation.dogecoin.com/zh-cn/announcements/2022-02-24-update-ross/</guid><description>近期，Ross宣布他将退出狗狗币基金会不再担任董事，他将不再像过去一样在加密货币领域保持活跃。
+对社区的很多人来说，这有点突然。不过实际上，Ross在一年前就把自己的想法告诉了狗狗币的核心开发者们，并且为确保工作的平稳交接继续默默贡献了自己的才华。
+Ross在2021年重建狗狗币基金会的工作中发挥了重要作用。基金会的成立，保障了狗狗币在未来将通过多样化的项目和团队生态以持续繁荣，致力于让狗狗币成为长期持续发展的加密货币。
+Ross的离开是狗狗币社区的损失，但我们相信担任狗狗币基金会顾问的Ross将会继续发挥作用。我们谨代表狗狗币基金会及狗狗币社区，向Ross表达敬意，感谢他在过去十年时间里守护狗狗币梦想所做的不懈努力。
+我们将会铭记Ross过往和我们的互动交流，那个高礼帽、随和、充满英式幽默和无尽智慧的Ross，我们祝福Ross拥有一个光明和快乐的明天，继续每日正气。
+&amp;ndash; 狗狗币基金会。</description><content type="html"><![CDATA[<p>近期，Ross<a href="https://rnicoll.name/posts/2022-02-16-stepping-away/">宣布</a>他将退出狗狗币基金会不再担任董事，他将不再像过去一样在加密货币领域保持活跃。</p>
+<p>对社区的很多人来说，这有点突然。不过实际上，Ross在一年前就把自己的想法告诉了狗狗币的核心开发者们，并且为确保工作的平稳交接继续默默贡献了自己的才华。</p>
+<p>Ross在2021年重建狗狗币基金会的工作中发挥了重要作用。基金会的成立，保障了狗狗币在未来将通过多样化的项目和团队生态以持续繁荣，致力于让狗狗币成为长期持续发展的加密货币。</p>
+<p>Ross的离开是狗狗币社区的损失，但我们相信担任狗狗币基金会顾问的Ross将会继续发挥作用。我们谨代表狗狗币基金会及狗狗币社区，向Ross表达敬意，感谢他在过去十年时间里守护狗狗币梦想所做的不懈努力。</p>
+<p>我们将会铭记Ross过往和我们的互动交流，那个高礼帽、随和、充满英式幽默和无尽智慧的Ross，我们祝福Ross拥有一个光明和快乐的明天，继续每日正气。</p>
+<p>&ndash; 狗狗币基金会。</p>
+]]></content></item><item><title>狗狗币基金会更新 &amp; 2022年1月23日直播互动</title><link>https://foundation.dogecoin.com/zh-cn/announcements/2022-01-21-update-ama/</link><pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate><guid>https://foundation.dogecoin.com/zh-cn/announcements/2022-01-21-update-ama/</guid><description>狗狗币基金会由原始核心开发团队和狗狗币社区长期志愿者们领导和建立，负责为狗狗币加密货币项目提供管理和支持。
+2014年以来，基金会的唯一使命就是为狗狗币的项目、声誉和全球社区提供保护和支持。基金会致力于促进狗狗币跟进其他加密货币的发展变化以保持同步，保证狗狗币能够持续蓬勃发展，并最终发展成为一种广泛使用的货币。
+2022年1月23日，基金会的三名成员Michi Lumin、Ross Nicoll和Tim Stebbing将参加AMA（Ask-Me-Anything）直播节目，活动将进行直播。为了方便AMA直播活动的顺利举行，基金会对近期的活动进了一个简短的更新总结，这些活动都是为了狗狗币社区能够更好的发展，包括以下：
+推出第一个狗狗币路线图，为狗狗币生态的发展提供长期愿景。
+与GigaWallet项目的潜在商业、非商业用户进行接触、商谈，收集他们的需求为未来的狗狗币开发工作打下基础。
+汇聚一些志同道合的、愿意为Libdogecoin做贡献的开发朋友们开始开发Libdogecoin。
+建立一个社区网站翻译者志愿团队，他们将为即将推出的dogecoin.com网站和狗狗百科网站提供多语言支持。
+让长期以来无偿提供了关键贡献的志愿者们进入基金会，公平的对待他们，确保狗狗币生态在未来能够持续获得资源支持。
+建立良好的治理和监督制度，与法务、会计师和税务顾问进行合作，确保基金会的每一笔资金都是为了狗狗币的社区利益而用。
+支持和促进狗狗币在慈善事业上的应用，比如#TeamSeas活动，帮助从海洋中清除不低于30,000,000磅的垃圾。
+和帮助传播狗狗币快乐文化及知识的非营利组织进行合作，例如Hack Club。
+保护狗狗币不被野蛮人（包括一些大型公司）恶意控制，比如恶意注册狗狗币商标、伪造虚假狗狗币误导社区群众等，可见我们最近的推文。
+保障狗狗币的名称、标识、模因可供社区自由使用。
+同世界各地的社区群体、投资者、技术人员及其他相关方联络，为狗狗币进行筹划和发现机会，为狗狗币提供永久支持。
+重要的是，所有这些行动都是要确保狗狗币在未来仍然是人民的货币。基金会将一如既往的致力于每日正气。基金会目前正在整理一份说明文档，这份文档将会提供有关基金会战略、筹资计划和交易打赏的更多详细信息。期待在未来几周内向您分享这些信息。
+您可以点击阅读有关狗狗币基金会、狗狗币成员及工作的更多信息。</description><content type="html"><![CDATA[<p>狗狗币基金会由原始核心开发团队和狗狗币社区长期志愿者们领导和建立，负责为狗狗币加密货币项目提供管理和支持。</p>
+<p>2014年以来，基金会的唯一使命就是为狗狗币的项目、声誉和全球社区提供保护和支持。基金会致力于促进狗狗币跟进其他加密货币的发展变化以保持同步，保证狗狗币能够持续蓬勃发展，并最终发展成为一种广泛使用的货币。</p>
+<p>2022年1月23日，基金会的三名成员Michi Lumin、Ross Nicoll和Tim Stebbing将参加AMA（Ask-Me-Anything）直播节目，活动将进行<a href="https://youtu.be/jctze9jZfTQ">直播</a>。为了方便AMA直播活动的顺利举行，基金会对近期的活动进了一个简短的更新总结，这些活动都是为了狗狗币社区能够更好的发展，包括以下：</p>
+<ul>
+<li>
+<p>推出第一个<a href="/zh-cn/trailmap/prologue/">狗狗币路线图</a>，为狗狗币生态的发展提供长期愿景。</p>
+</li>
+<li>
+<p>与GigaWallet项目的潜在商业、非商业用户进行接触、商谈，收集他们的需求为未来的狗狗币开发工作打下基础。</p>
+</li>
+<li>
+<p>汇聚一些志同道合的、愿意为Libdogecoin做贡献的开发朋友们开始开发Libdogecoin。</p>
+</li>
+<li>
+<p>建立一个社区网站翻译者志愿团队，他们将为即将推出的dogecoin.com网站和狗狗百科网站提供多语言支持。</p>
+</li>
+<li>
+<p>让长期以来无偿提供了关键贡献的志愿者们进入基金会，公平的对待他们，确保狗狗币生态在未来能够持续获得资源支持。</p>
+</li>
+<li>
+<p>建立良好的治理和监督制度，与法务、会计师和税务顾问进行合作，确保基金会的每一笔资金都是为了狗狗币的社区利益而用。</p>
+</li>
+<li>
+<p>支持和促进狗狗币在慈善事业上的应用，比如<a href="https://dogecoin.com/zh-cn/teamseas/">#TeamSeas</a>活动，帮助从海洋中清除不低于30,000,000磅的垃圾。</p>
+</li>
+<li>
+<p>和帮助传播狗狗币快乐文化及知识的非营利组织进行合作，例如<a href="https://hackclub.com/">Hack Club</a>。</p>
+</li>
+<li>
+<p>保护狗狗币不被野蛮人（包括一些大型公司）恶意控制，比如恶意注册狗狗币商标、伪造虚假狗狗币误导社区群众等，可见我们最近的<a href="https://twitter.com/DogecoinFdn/status/1484474892569305088?s=20">推文</a>。</p>
+</li>
+<li>
+<p>保障狗狗币的名称、标识、模因可供社区自由使用。</p>
+</li>
+<li>
+<p>同世界各地的社区群体、投资者、技术人员及其他相关方联络，为狗狗币进行筹划和发现机会，为狗狗币提供永久支持。</p>
+</li>
+</ul>
+<p>重要的是，所有这些行动都是要确保狗狗币在未来仍然是人民的货币。基金会将一如既往的致力于<strong>每日正气</strong>。基金会目前正在整理一份说明文档，这份文档将会提供有关基金会战略、筹资计划和交易打赏的更多详细信息。期待在未来几周内向您分享这些信息。</p>
+<p>您可以<a href="https://foundation.dogecoin.com/zh-cn/">点击</a>阅读有关狗狗币基金会、狗狗币成员及工作的更多信息。</p>
+]]></content></item><item><title>公告：狗狗币基金会重建</title><link>https://foundation.dogecoin.com/zh-cn/announcements/2020-08-15-foundation-announcement/</link><pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate><guid>https://foundation.dogecoin.com/zh-cn/announcements/2020-08-15-foundation-announcement/</guid><description>今天我们非常激动地宣布重新建立狗狗币基金会（始建于2014年），致力于支持狗狗币生态圈、狗狗币社区和促进狗狗币区块链的未来发展。
+聚焦方向 狗狗币基金会会对狗狗币钱包项目提供基本的帮助和建议，但是不会“完全控制”狗狗币核心钱包项目。我们通过资金赞助来支持当前的狗狗币核心开发人员和未来的狗狗币开发人员全职工作，并为那些希望帮助该项目发展的新贡献者们提供一个开放的平台，从而加快开发进度。
+狗狗币基金会同时也在展望狗狗币生态系统更广阔的未来，并将在未来几周内宣布新的项目。这些项目作为当前核心钱包的拓展不仅可以提供简单易用的API，还能方便各个金融机构、社交媒体以及慈善机构的项目进行快速集成。我们相信通过专注这些基础性项目，狗狗币终将得到全球的广泛认可和使用。
+保护狗狗币的“Dogecoin”品牌 多年以来，狗狗币社群一直被认为是最善良的一个群体，我们希望每个人都能方便地使用它的名称和标志。毕竟狗狗币是属于人民的。
+然而，最近，有人在多个国家多次企图注册“Dogecoin”的相关品牌，这种行为会阻止我们的社区和项目本身来使用这些名字。
+总有一些人在默默奉献，我们要赞扬我们狗狗群体中的一只很棒的狗狗&amp;ndash;Jens Wiechers。自 2014 年以来，他代表狗狗币基金会通过与各国商标局的沟通，单枪匹马并付出巨大的个人开销与此类攻击作斗争，以此保护每个人都有权使用狗狗币品牌。
+基金会现持有狗狗币商标和狗狗币标志，并将为社区维护它们。这意味着基金会可以继续保护狗狗币品牌，并允许（在非常自由的许可下）大家将其用于与狗狗币相关的模因、项目和其它有趣的东西。-我们支持您。
+狗狗币宣言 我们一直在思考狗狗币的含义：作为一个技术项目，作为一个世界级的向善运动。我们将其总结为四句话的声明，我们称之为狗狗币宣言。两句话专注于技术，两句话专注于社群。
+我们相信，这些以“每日正气（Do Only Good Everyday）”为基础的宣言将指引我们勇往直前，做出正确的决定并推进狗狗币生态圈的发展。
+狗狗币宣言
+如果可以，请点击宣言页面底部的推文链接“签署”宣言。这会让世界知道狗狗军团（Doge Army）代表什么！
+停下来，合作并倾听！ 宣言的主要原则之一是我们“重视信任与合作，而不是竞争排他”。考虑到这一点，我们建立了一个小而精悍且令人赞叹的顾问组，他们在不同领域中拥有丰富的经验。在我们发展和壮大生态圈的过程中，他们将是狗狗币的坚定的盟友和倡导者。
+前往查看顾问团全明星阵容，并对他们提供宝贵的时间给予一些爱。
+成功的代价 在过去几个月以来的不知疲倦的志愿者们的努力帮助下，基金会重新启动了。然而，我们认识到狗狗币（在撰写此文时，它是一个价值 440 亿美元的金融产品）的规模已经超过了许多拥有数千名员工的机构。
+目前，那些一直在不停地付出以使狗狗币发展成今天的样子的贡献者们已经筋疲力尽。他们需要在保持全职工作的同时，利用大量业余时间来努力应对那些善意或恶意的狗狗币的相关事件。
+这种捉襟见肘的情况是有代价的。有才华的新人们找到我们，并且希望对项目提供帮助，但没有人有空欢迎他们或帮助他们找到贡献的方式，因此他们沮丧地离开。文档工作停滞不前，潜在的补丁没有人审查，而几名核心人员们在有限的时间里只能专注于那些最重要的问题。
+赞助 我们相信狗狗币值得拥有一支全职团队，全职贡献者们可以帮助承担这些日常任务，让狗狗币项目一直保持活力。
+基金会一直在准备预算，并收到了许多捐款意向。我们的目标是与一系列赞助商达成常年合作，用以覆盖基金会各项活动的支出以及核心开发团队的支出。
+我们的初始目标是确保拿到三年的预算，以便我们可以招募少量的全职员工来改进狗狗币，足够的预算使他们不必担心中途失业。
+如果您愿意支持狗狗币基金会，有能力成为我们的主要赞助商，请联系我们，我们很乐意与您商谈。
+非常爱（much love）-狗狗币基金会</description><content type="html"><![CDATA[<p>今天我们非常激动地宣布重新建立狗狗币基金会（始建于2014年），致力于支持狗狗币生态圈、狗狗币社区和促进狗狗币区块链的未来发展。</p>
+<h3 id="聚焦方向">聚焦方向</h3>
+<p>狗狗币基金会会对狗狗币钱包项目提供基本的帮助和建议，但是不会“完全控制”狗狗币核心钱包项目。我们通过资金赞助来支持当前的狗狗币核心开发人员和未来的狗狗币开发人员全职工作，并为那些希望帮助该项目发展的新贡献者们提供一个开放的平台，从而加快开发进度。</p>
+<p>狗狗币基金会同时也在展望狗狗币生态系统更广阔的未来，并将在未来几周内宣布新的项目。这些项目作为当前核心钱包的拓展不仅可以提供简单易用的API，还能方便各个金融机构、社交媒体以及慈善机构的项目进行快速集成。我们相信通过专注这些基础性项目，狗狗币终将得到全球的广泛认可和使用。</p>
+<h3 id="保护狗狗币的dogecoin品牌">保护狗狗币的“Dogecoin”品牌</h3>
+<p>多年以来，狗狗币社群一直被认为是最善良的一个群体，我们希望每个人都能方便地使用它的名称和标志。毕竟狗狗币是属于人民的。</p>
+<p>然而，最近，有人在多个国家多次企图注册“Dogecoin”的相关品牌，这种行为会阻止我们的社区和项目本身来使用这些名字。</p>
+<p>总有一些人在默默奉献，我们要赞扬我们狗狗群体中的一只很棒的狗狗&ndash;Jens Wiechers。自 2014 年以来，他代表狗狗币基金会通过与各国商标局的沟通，单枪匹马并付出巨大的个人开销与此类攻击作斗争，以此保护每个人都有权使用狗狗币品牌。</p>
+<p>基金会现持有狗狗币商标和狗狗币标志，并将为社区维护它们。这意味着基金会可以继续保护狗狗币品牌，并允许（在非常自由的许可下）大家将其用于与狗狗币相关的模因、项目和其它有趣的东西。-我们支持您。</p>
+<h3 id="狗狗币宣言">狗狗币宣言</h3>
+<p>我们一直在思考狗狗币的含义：作为一个技术项目，作为一个世界级的向善运动。我们将其总结为四句话的声明，我们称之为狗狗币宣言。两句话专注于技术，两句话专注于社群。</p>
+<p>我们相信，这些以“每日正气（Do Only Good Everyday）”为基础的宣言将指引我们勇往直前，做出正确的决定并推进狗狗币生态圈的发展。</p>
+<p><a href="/zh-cn/manifesto">狗狗币宣言</a></p>
+<p>如果可以，请点击宣言页面底部的推文链接“签署”宣言。这会让世界知道狗狗军团（Doge Army）代表什么！</p>
+<h3 id="停下来合作并倾听">停下来，合作并倾听！</h3>
+<p>宣言的主要原则之一是我们“重视信任与合作，而不是竞争排他”。考虑到这一点，我们建立了一个小而精悍且令人赞叹的顾问组，他们在不同领域中拥有丰富的经验。在我们发展和壮大生态圈的过程中，他们将是狗狗币的坚定的盟友和倡导者。</p>
+<p><a href="/zh-cn/about">前往查看顾问团全明星阵容</a>，并对他们提供宝贵的时间给予一些爱。</p>
+<h3 id="成功的代价">成功的代价</h3>
+<p>在过去几个月以来的不知疲倦的志愿者们的努力帮助下，基金会重新启动了。然而，我们认识到狗狗币（在撰写此文时，它是一个价值 440 亿美元的金融产品）的规模已经超过了许多拥有数千名员工的机构。</p>
+<p>目前，那些一直在不停地付出以使狗狗币发展成今天的样子的贡献者们已经筋疲力尽。他们需要在保持全职工作的同时，利用大量业余时间来努力应对那些善意或恶意的狗狗币的相关事件。</p>
+<p>这种捉襟见肘的情况是有代价的。有才华的新人们找到我们，并且希望对项目提供帮助，但没有人有空欢迎他们或帮助他们找到贡献的方式，因此他们沮丧地离开。文档工作停滞不前，潜在的补丁没有人审查，而几名核心人员们在有限的时间里只能专注于那些最重要的问题。</p>
+<h3 id="赞助">赞助</h3>
+<p>我们相信狗狗币值得拥有一支全职团队，全职贡献者们可以帮助承担这些日常任务，让狗狗币项目一直保持活力。</p>
+<p>基金会一直在准备预算，并收到了许多捐款意向。我们的目标是与一系列赞助商达成常年合作，用以覆盖基金会各项活动的支出以及核心开发团队的支出。</p>
+<p>我们的初始目标是确保拿到三年的预算，以便我们可以招募少量的全职员工来改进狗狗币，足够的预算使他们不必担心中途失业。</p>
+<p>如果您愿意支持狗狗币基金会，有能力成为我们的主要赞助商，请联系我们，我们很乐意与您商谈。</p>
+<p></br></br>
+非常爱（much love）-狗狗币基金会
+</br></br></p>
+]]></content></item></channel></rss>
