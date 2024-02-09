@@ -1,4 +1,4 @@
-baseURL = "https://foundation.dogecoin.com"
+baseURL = "https://dogecoin.org"
 title   = "Dogecoin Foundation"
 languageCode = "en-us"
 theme = "hello-friend-ng"
