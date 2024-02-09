@@ -1,6 +1,6 @@
-# How To Get Dogecoin Website
+# How To Get Dogecoin Foundation Website
 
-- [How To Get Dogecoin Website](#how-to-get-dogecoin-website)
+- [How To Get Dogecoin Foundation Website](#how-to-get-dogecoin-foundation-website)
   - [Install Git](#install-git)
     - [Install Git (Command-line)](#install-git-command-line)
     - [Install Git (GUI)](#install-git-gui)
@@ -26,12 +26,12 @@ You could use command-line version of git or GUI version of git, either way is f
 
 * Open the terminal on Windows/Mac/Linux
 ```
-$ git clone https://github.com/dogeorg/dogecoin.org.git .
+$ git clone https://github.com/dogecoinfoundation/foundation.dogecoin.com.git .
 ```
 ### Using Github Desktop (GUI)
 
 * Open Github Desktop
 * Add -> Clone Repository
-* URL: https://github.com/dogeorg/dogecoin.org.git
+* URL: https://github.com/dogecoinfoundation/foundation.dogecoin.com.git
 * Clone it to your local machine
 ![](img/github-desktop-clone-repo.png)

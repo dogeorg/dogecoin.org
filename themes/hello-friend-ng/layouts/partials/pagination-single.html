@@ -1,0 +1,9 @@
+{{ if and (not $.Site.Params.DisableReadOtherPosts) (or .PrevInSection) }}
+    <div class="pagination">
+        Next post:   
+        <a href="{{ .PrevInSection.Permalink }}">
+            <span class="button__text" style="white-space: normal;">{{ .PrevInSection.Title }}</span>
+            <span class="button__icon">→</span>
+        </a>
+    </div>
+{{ end }}

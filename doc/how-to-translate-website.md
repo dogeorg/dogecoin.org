@@ -1,6 +1,6 @@
-# How To Translate Dogecoin Website
+# How To Translate Dogecoin Foundation Website
 
-- [How To Translate Dogecoin Website](#how-to-translate-dogecoin-foundation-website)
+- [How To Translate Dogecoin Foundation Website](#how-to-translate-dogecoin-foundation-website)
   - [Apply for translation](#apply-for-translation)
   - [Get the code](#get-the-code)
   - [Checkout a new branch](#checkout-a-new-branch)
@@ -8,7 +8,8 @@
     - [GUI](#gui)
     - [Markdown Editor](#markdown-editor)
   - [Update config.toml](#update-configtoml)
-  - [Update flags.html](#update-langflags)
+  - [Update langFlags.yaml](#update-langflagsyaml)
+  - [Create/Update translated-lang.toml](#createupdate-translated-langtoml)
   - [Translation](#translation)
   - [Test translation](#test-translation)
   - [Pull Request](#pull-request)
@@ -21,7 +22,7 @@
 
 ## Get the code
 
-* Get the code by following the steps in '[How To Get Dogecoin Website](how-to-get-website.md)
+* Get the code by following the steps in '[How To Get Dogecoin Foundation Website](how-to-get-website.md)
 
 ## Checkout a new branch
 
@@ -50,20 +51,25 @@ git checkout -b personal-lang-trans-branch
 * Add according language (eg. translated-lang) in ```[languages]``` section.
 * Add menu items of Home Page in your 'translated-lang' section (eg. ```zh-cn``` is ```[languages.zh-cn.menu]``` and following ```[[languages.zh-cn.menu.main]]```).
 
-## Update flags.html
+## Update langFlags.yaml
 
-* Open file '```themes/dogecoin.org/layouts/partials/flags.html```'.
-* Add according language (eg. translated-lang) in ```flags.html```.
+* Open file '```themes/hello-friend-ng/data/langFlags.yaml```'.
+* Add according language (eg. translated-lang) in ```langFlags.yaml```.
+
+## Create/Update translated-lang.toml
+
+* Create file if it does NOT exist '```themes/hello-friend-ng/i18n/translated-lang.toml```' (eg. '```themes/hello-friend-ng/i18n/zh-cn.toml```').
+* Update file if it does exist '```themes/hello-friend-ng/i18n/translated-lang.toml```' (eg. '```themes/hello-friend-ng/i18n/zh-cn.toml```').
 
 
 ## Translation
 
-* Copy the original english (markdown format) files from ```content/en/```,  (eg. ```introduction.md```) and paste as the to-be-translated-files (eg. ```content/translated-lang/much-start-coding/dogecoin-core/introduction.md```), translate them then.
+* Copy the original english (markdown format) files (eg. ```about.md```) and paste as the to-be-translated-files (eg. ```about.translated-lang.md```), translate them then.
 * If there are some updates on the ```main``` branch during your translating process, you should merge them to your personal-trans-branch first (resolve conflicts as well), to make sure your translation is update-to-date.
 
 ## Test translation
 
-* Run the website locally by following the steps in [How To Run Dogecoin Website](how-to-run-website.md) to test the translation, make sure it will work as expected.
+* Run the website locally by following the steps in [How To Run Dogecoin Foundation Website](how-to-run-website.md) to test the translation, make sure it will work as expected.
 
 ## Pull Request
 
